@@ -1,7 +1,8 @@
 # 项目列表
 
-- [Spring Cloud Gateway](#Spring-Cloud-Gateway)
-- [向日葵](#向日葵)
+- [Spring Cloud Gateway](###Spring-Cloud-Gateway)
+- [向日葵](###向日葵)
+- [Zabbix](###Zabbix)
 
 # 漏洞列表
 
@@ -16,3 +17,14 @@
   - 漏洞介绍及修复建议:https://www.cnvd.org.cn/flaw/show/CNVD-2022-10270
   - POC/EXP:https://chowdera.com/2022/02/202202251725051373.html
   - 批量利用工具:https://github.com/Ryze-T/CNVD-2022-10270-LPE
+### Zabbix
+- CVE-2022-23131 Zabbix登录绕过漏洞
+  - 漏洞影响版本:**5.4.0 - 5.4.8、6.0.0alpha1**
+  - 漏洞介绍及修复建议:https://support.zabbix.com/browse/ZBX-20350
+  - POC/EXP:https://forum.90sec.com/t/topic/2045
+  - 批量利用工具:https://github.com/Mr-xn/cve-2022-23131
+
+- CVE-2022-23134 Zabbix未授权访问到接管后台
+  - 漏洞影响版本:**5.4.0 - 5.4.8、6.0.0 - 6.0.0beta1**
+  - 漏洞介绍及修复建议:https://support.zabbix.com/browse/ZBX-20384
+  - POC/EXP:https://www.ctfiot.com/27130.html
