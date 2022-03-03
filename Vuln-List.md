@@ -32,7 +32,7 @@
   - POC/EXP:https://chowdera.com/2022/02/202202251725051373.html
   - 批量利用工具:https://github.com/Ryze-T/CNVD-2022-10270-LPE
 
-### 钉钉
+### 钉钉办公软件
 - 钉钉办公软件远程命令执行漏洞
   - 漏洞影响版本:**6.3.5**
   - 漏洞介绍及修复建议:https://www.cfanz.cn/resource/detail/nAvwlDExjLADB
