@@ -60,6 +60,7 @@
   - 漏洞影响版本:**Spring Cloud Gateway<3.1.1、Spring Cloud Gateway<3.0.7、Spring Cloud Gateway 其他已不再更新的版本**
   - 漏洞介绍及修复建议:https://spring.io/blog/2022/03/01/spring-cloud-gateway-cve-reports-published
   - POC/EXP:https://github.com/vulhub/vulhub/blob/master/spring/CVE-2022-22947/README.zh-cn.md
+  - 批量利用脚本:https://raw.githubusercontent.com/dingxiao77/-cve-2022-22947-/main/spring_cloud_poc.py
 
 ### Zabbix监控系统
 - CVE-2022-23131 Zabbix登录绕过漏洞
