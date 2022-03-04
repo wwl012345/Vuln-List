@@ -33,11 +33,38 @@
   - POC/EXP:https://www.ddosi.org/cve-2021-22205
   - 批量利用工具:https://github.com/Al1ex/CVE-2021-22205
 
-- CVE-2021-22214 Gitlab API未授权SSRF复现
+- CVE-2021-22214 Gitlab API未授权SSRF漏洞
   - 漏洞影响版本:**13.10.5 > GitLab >= 10.5、13.11.5 > GitLab >= 13.11、13.12.2 > GitLab >= 13.12**
   - 漏洞介绍及修复建议:https://nosec.org/home/detail/4772.html
   - POC/EXP:https://cloud.tencent.com/developer/article/1851527
   - 批量利用工具:https://github.com/r0ckysec/CVE-2021-22214
+
+- CVE-2020-10977 任意文件读取漏洞
+  - 漏洞影响版本:**GitLab EE >=8.5，<=12.9、GitLab CE >=8.5，<=12.9**
+  - 漏洞介绍及修复建议:https://www.freebuf.com/vuls/235982.html
+  - POC/EXP:https://atsud0.me/2021/03/09/CVE-2020-10977%E6%BC%8F%E6%B4%9E%E5%A4%8D%E7%8E%B0
+  - 批量利用工具:https://github.com/thewhiteh4t/cve-2020-10977
+
+- CVE-2018-18649 Gitlab Wiki API远程代码执行漏洞 
+  - 漏洞影响版本:**Gitlab CE/EE 11.3及之后的版本**
+  - 漏洞介绍及修复建议:https://xz.aliyun.com/t/8818
+  - POC/EXP:http://blog.leanote.com/post/snowming/b1a0b71e55c7
+  - 批量利用工具:https://github.com/Snowming04/CVE-2018-18649
+
+- CVE-2018-14364 Gitlab远程代码执行漏洞
+  - 漏洞影响版本:**GitLab CE and EE 8.9.0 - 9.5.10、10.0.0 - 10.1.5、10.2.0 - 10.2.5、10.3.0 - 10.3.3**
+  - 漏洞介绍及修复建议:https://www.its203.com/article/YouthBelief/121279641?2022-03-04
+  - POC/EXP:https://www.codetd.com/article/13363173
+
+- CVE-2017-0882 Gitlab敏感信息泄露漏洞
+  - 漏洞影响版本:**8.7.0至8.15.7、8.16.0至8.16.7、8.17.0至8.17.3**
+  - 漏洞介绍及修复建议:https://help.aliyun.com/document_detail/51855.html
+  - POC/EXP:https://www.daimajiaoliu.com/daima/481c4066610041c
+
+- CVE-2016-9086 Gitlab任意文件读取漏洞
+  - 漏洞影响版本:**8.9、8.10、8.11、8.12 and 8.13**
+  - 漏洞介绍及修复建议:https://github.com/vulhub/vulhub/blob/master/gitlab/CVE-2016-9086/README.zh-cn.md
+  - POC/EXP:https://cloud.tencent.com/developer/article/1078507
 
 ### 向日葵
 - CNVD-2022-10270 向日葵个人版for Windows命令执行漏洞
