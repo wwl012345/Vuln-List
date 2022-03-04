@@ -2,6 +2,7 @@
 
 - [Spring Cloud Gateway](#Spring-Cloud-Gateway)
 - [Zabbix监控系统](#Zabbix监控系统)
+- [Grafana](#Grafana)
 - [GitLab](#GitLab)
 - [向日葵](#向日葵)
 - [钉钉办公软件](#钉钉办公软件)
@@ -25,6 +26,13 @@
   - 漏洞影响版本:**5.4.0 - 5.4.8、6.0.0 - 6.0.0beta1**
   - 漏洞介绍及修复建议:https://support.zabbix.com/browse/ZBX-20384
   - POC/EXP:https://www.ctfiot.com/27130.html
+
+### Grafana
+- CVE-2021-43798 Grafana任意文件读取漏洞
+  - 漏洞影响版本:**Grafana 8.x 系列**
+  - 漏洞介绍及修复建议:https://www.wangan.com/p/7fy74775e35b0e9b
+  - POC/EXP:https://cloud.tencent.com/developer/article/1922065
+  - 批量利用工具:https://github.com/ScorpionsMAX/CVE-2021-43798-Grafana-POC
 
 ### GitLab
 - CVE-2021-22205 GitLab远程代码执行漏洞
