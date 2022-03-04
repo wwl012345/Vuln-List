@@ -7,6 +7,7 @@
 - [Laravel](#Laravel)
 - [向日葵](#向日葵)
 - [钉钉办公软件](#钉钉办公软件)
+- [Clash](#Clash)
 
 # 漏洞列表
 
@@ -100,3 +101,9 @@
   - 漏洞影响版本:**6.3.5**
   - 漏洞介绍及修复建议:https://www.cfanz.cn/resource/detail/nAvwlDExjLADB
   - POC/EXP:https://github.com/crazy0x70/dingtalk-RCE
+
+### Clash
+- Clash For Windows远程代码执行漏洞
+  - 漏洞影响版本:**windows版本 <0.19.9**
+  - 漏洞介绍及修复建议:https://nosec.org/home/detail/4969.html
+  - POC/EXP:https://github.com/wjl110/Clash_for_Windows-poc-rce-
