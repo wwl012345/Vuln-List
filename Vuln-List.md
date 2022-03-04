@@ -37,6 +37,39 @@
   - 漏洞介绍及修复建议:https://www.anquanke.com/post/id/221343
   - POC/EXP:暂无
 
+- CVE-2020-13933 Apache Shiro权限绕过漏洞
+  - 漏洞影响版本:**Apache Shiro<1.6.0**
+  - 漏洞介绍及修复建议:https://www.secrss.com/articles/24851
+  - POC/EXP:https://github.com/lyy289065406/CVE-2020-13933
+
+- CVE-2020-11989 Apache Shiro权限绕过漏洞
+  - 漏洞影响版本:**Apache Shiro<1.5.3版本**
+  - 漏洞介绍及修复建议:https://ppfocus.com/cn/0/didbe3e27.html
+  - POC/EXP:https://www.anquanke.com/post/id/222489
+
+- CVE-2020-1957 Apache Shiro权限绕过漏洞
+  - 漏洞影响版本:**Apache Shiro<1.5.2**
+  - 漏洞介绍及修复建议:http://www.siweicn.com/newsinfo/44471.html?templateId=17
+  - POC/EXP:https://www.freebuf.com/vuls/231909.html
+
+- CVE-2019-12422 Shiro721反序列化远程代码执行漏洞
+  - 漏洞影响版本:**Apache Shiro<1.4.2**
+  - 漏洞介绍及修复建议:https://blog.csdn.net/qq_53264525/article/details/121757496
+  - POC/EXP:https://yinwc.github.io/2021/06/01/shiro721%E6%BC%8F%E6%B4%9E%E5%A4%8D%E7%8E%B0/
+  - 批量利用脚本:https://github.com/inspiringz/Shiro-721
+
+- CVE-2016-6802 Apache Shiro身份验证绕过漏洞复现
+  - 漏洞影响版本:**Apache Shiro<1.3.2**
+  - 漏洞介绍及修复建议:https://www.linuxidc.com/Linux/2016-09/135387.htm
+  - POC/EXP:https://www.cnblogs.com/backlion/p/14055279.html
+
+- CVE-2016-4437 Shiro550反序列化远程代码执行漏洞
+  - 漏洞影响版本:**Apache Shiro<=1.2.4**
+  - 漏洞介绍及修复建议:https://zhuanlan.zhihu.com/p/389768500
+  - POC/EXP:https://zhuanlan.zhihu.com/p/389768500
+  - 批量利用脚本:https://github.com/SummerSec/ShiroAttack2
+
+
 ### Apache Log4j
 - CVE-2021-44228 Log4j JNDI远程代码执行漏洞
   - 漏洞影响版本:**Apache Log4j 2.0 beta9-2.12.1 | Apache Log4j 2.13.0-2.15.0-rc1**
