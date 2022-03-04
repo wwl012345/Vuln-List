@@ -7,6 +7,7 @@
 
 # 项目列表
 
+- [Apache Shiro](#Apache-Shiro)
 - [Apache Log4j](#Apache-Log4j)
 - [Spring Cloud Gateway](#Spring-Cloud-Gateway)
 - [Zabbix监控系统](#Zabbix监控系统)
@@ -18,6 +19,23 @@
 - [Clash](#Clash)
 
 # 漏洞列表
+
+### Apache Shiro
+- CVE-2021-41303 Apache Shiro身份验证绕过漏洞
+  - 漏洞影响版本:**Apache Shiro<1.8.0**
+  - 漏洞介绍及修复建议:https://nosec.org/home/detail/4867.html
+  - POC/EXP:https://forum.butian.net/share/800
+  - 批量利用脚本:https://github.com/lockedbyte/CVE-2021-40444
+
+- CVE-2020-17523 Apache Shiro权限绕过漏洞
+  - 漏洞影响版本:**Apache Shiro<1.7.1**
+  - 漏洞介绍及修复建议:https://xz.aliyun.com/t/9175
+  - POC/EXP:https://www.anquanke.com/post/id/230935
+
+- CVE-2020-17510 Apache Shiro身份验证绕过漏洞
+  - 漏洞影响版本:**Apache Shiro<1.7.0**
+  - 漏洞介绍及修复建议:https://www.anquanke.com/post/id/221343
+  - POC/EXP:暂无
 
 ### Apache Log4j
 - CVE-2021-44228 Log4j JNDI远程代码执行漏洞
