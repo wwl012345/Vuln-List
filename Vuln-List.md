@@ -1,5 +1,11 @@
+# 说明
+**1.以下漏洞均为作者收集，请勿用于非法渠道，POC/EXP使用与作者本人无关**
+**2.其中涉及的影响版本都是包含该版本(如1.0.1-2.0.0表示1.0.1和2.0.2版本都受影响)**
+**3.里面的POC/EXP和利用脚本均为作者在网上查找，并没有一一进行验证，不能保证每一个POC/EXP或脚本都没有错误**
+
 # 项目列表
 
+- [Apache Log4j](#Apache Log4j)
 - [Spring Cloud Gateway](#Spring-Cloud-Gateway)
 - [Zabbix监控系统](#Zabbix监控系统)
 - [Grafana](#Grafana)
@@ -11,21 +17,57 @@
 
 # 漏洞列表
 
+### Apache Log4j
+- CVE-2021-44228 Log4j JNDI远程代码执行漏洞
+  - 漏洞影响版本:**Apache Log4j 2.0 beta9-2.12.1 | Apache Log4j 2.13.0-2.15.0-rc1**
+  - 漏洞介绍及修复建议:https://cert.360.cn/warning/detail?id=d5dd5bbdfbb3d58c3a633e4e105e22bb
+  - POC/EXP:https://cloud.tencent.com/developer/article/1922132
+  - 批量利用脚本:https://github.com/fullhunt/log4j-scan
+
+- CVE-2021-45046 Log4j 2远程代码执行漏洞
+  - 漏洞影响版本:**Apache Log4j 2.0-beta9-2.12.1 | Apache Log4j 2.13.0-2.15.0**
+  - 漏洞介绍及修复建议:https://cert.360.cn/warning/detail?id=fc08131e1735eb44a99798f464f51579
+  - POC/EXP:https://cloud.tencent.com/developer/article/1924041
+  - 批量利用脚本:https://github.com/fox-it/log4j-finder
+
+- CVE-2021-45105 Log4j 2拒绝服务漏洞
+  - 漏洞影响版本:**Apache Log4j 2.0-alpha1-2.16.0**
+  - 漏洞介绍及修复建议:https://vuldb.com/zh/?id.188709
+  - POC/EXP:https://bbs.pediy.com/thread-270955.htm
+  - 批量利用脚本:https://github.com/fox-it/log4j-finder
+
+- CVE-2021-4104 Log4j权限提升漏洞
+  - 漏洞影响版本:**Apache Log4j 1.x**
+  - 漏洞介绍及修复建议:https://cn-sec.com/archives/680624.html
+  - POC/EXP:https://avd.aliyun.com/detail?id=AVD-2021-4104
+  - 批量利用脚本:https://github.com/cckuailong/log4shell_1.x
+
+- CVE-2019-17571 Apache Log4j反序列化远程代码执行漏洞
+  - 漏洞影响版本:**1.2.4-1.2.17**
+  - 漏洞介绍及修复建议:https://mp.weixin.qq.com/s/okU2y0izfnKXXtXG3EfLkQ
+  - POC/EXP:https://www.freesion.com/article/3312436042
+
+- CVE-2017-5645 Apache Log4j反序列化远程代码执行漏洞
+  - 漏洞影响版本:**Apache Log4j 2.0 alpha1-Apache Log4j 2.8.1**
+  - 漏洞介绍及修复建议:https://help.aliyun.com/document_detail/52712.html
+  - POC/EXP:https://cloud.tencent.com/developer/article/1701706
+  - 批量利用脚本:https://github.com/HynekPetrak/log4shell-finder
+
 ### Spring Cloud Gateway
 - CVE-2022-22947 Spring Cloud Gateway远程代码执行漏洞
-  - 漏洞影响版本:**Spring Cloud Gateway < 3.1.1、Spring Cloud Gateway < 3.0.7、Spring Cloud Gateway 其他已不再更新的版本**
+  - 漏洞影响版本:**Spring Cloud Gateway<3.1.1、Spring Cloud Gateway<3.0.7、Spring Cloud Gateway 其他已不再更新的版本**
   - 漏洞介绍及修复建议:https://spring.io/blog/2022/03/01/spring-cloud-gateway-cve-reports-published
   - POC/EXP:https://github.com/vulhub/vulhub/blob/master/spring/CVE-2022-22947/README.zh-cn.md
 
 ### Zabbix监控系统
 - CVE-2022-23131 Zabbix登录绕过漏洞
-  - 漏洞影响版本:**5.4.0 - 5.4.8、6.0.0alpha1**
+  - 漏洞影响版本:**zabbix 5.4.0-5.4.8 ｜ 6.0.0alpha1**
   - 漏洞介绍及修复建议:https://support.zabbix.com/browse/ZBX-20350
   - POC/EXP:https://forum.90sec.com/t/topic/2045
   - 批量利用工具:https://github.com/Mr-xn/cve-2022-23131
 
 - CVE-2022-23134 Zabbix未授权访问到接管后台
-  - 漏洞影响版本:**5.4.0 - 5.4.8、6.0.0 - 6.0.0beta1**
+  - 漏洞影响版本:**zabbix 5.4.0-5.4.8 ｜ 6.0.0-6.0.0beta1**
   - 漏洞介绍及修复建议:https://support.zabbix.com/browse/ZBX-20384
   - POC/EXP:https://www.ctfiot.com/27130.html
 
@@ -38,19 +80,19 @@
 
 ### GitLab
 - CVE-2021-22205 GitLab远程代码执行漏洞
-  - 漏洞影响版本:**11.9<=Gitlab CE/EE<13.8.8 ｜ 13.9<=Gitlab CE/EE<13.9.6 ｜ 13.10<=Gitlab CE/EE<13.10.3**
+  - 漏洞影响版本:**Gitlab CE/EE 11.9-13.8.8 ｜ 13.9-13.9.6 ｜ 13.10-13.10.3**
   - 漏洞介绍及修复建议:https://cert.360.cn/warning/detail?id=3a92c000fa976ff46b5e9ce85e165477
   - POC/EXP:https://www.ddosi.org/cve-2021-22205
   - 批量利用工具:https://github.com/Al1ex/CVE-2021-22205
 
 - CVE-2021-22214 Gitlab API未授权SSRF漏洞
-  - 漏洞影响版本:**13.10.5>GitLab>= 10.5 ｜ 13.11.5>GitLab>=13.11 ｜ 13.12.2>GitLab>=13.12**
+  - 漏洞影响版本:**GitLab 13.10.5-10.5 ｜ 13.11.5-13.11 ｜ 13.12.2-13.12**
   - 漏洞介绍及修复建议:https://nosec.org/home/detail/4772.html
   - POC/EXP:https://cloud.tencent.com/developer/article/1851527
   - 批量利用工具:https://github.com/r0ckysec/CVE-2021-22214
 
 - CVE-2020-10977 任意文件读取漏洞
-  - 漏洞影响版本:**8.5<=GitLab EE/CE<=12.9**
+  - 漏洞影响版本:**GitLab EE/CE 8.5-12.9**
   - 漏洞介绍及修复建议:https://www.freebuf.com/vuls/235982.html
   - POC/EXP:https://atsud0.me/2021/03/09/CVE-2020-10977%E6%BC%8F%E6%B4%9E%E5%A4%8D%E7%8E%B0
   - 批量利用工具:https://github.com/thewhiteh4t/cve-2020-10977
@@ -62,7 +104,7 @@
   - 批量利用工具:https://github.com/Snowming04/CVE-2018-18649
 
 - CVE-2018-14364 Gitlab远程代码执行漏洞
-  - 漏洞影响版本:**GitLab CE/EE 8.9.0 - 9.5.10 | 10.0.0 - 10.1.5 | 10.2.0 - 10.2.5 | 10.3.0 - 10.3.3**
+  - 漏洞影响版本:**GitLab CE/EE 8.9.0-9.5.10 | 10.0.0-10.1.5 | 10.2.0-10.2.5 | 10.3.0-10.3.3**
   - 漏洞介绍及修复建议:https://www.its203.com/article/YouthBelief/121279641?2022-03-04
   - POC/EXP:https://www.codetd.com/article/13363173
 
@@ -72,7 +114,7 @@
   - POC/EXP:https://www.daimajiaoliu.com/daima/481c4066610041c
 
 - CVE-2016-9086 Gitlab任意文件读取漏洞
-  - 漏洞影响版本:**8.9、8.10、8.11、8.12 and 8.13**
+  - 漏洞影响版本:**Gitlab 8.9、8.10、8.11、8.12 and 8.13**
   - 漏洞介绍及修复建议:https://github.com/vulhub/vulhub/blob/master/gitlab/CVE-2016-9086/README.zh-cn.md
   - POC/EXP:https://cloud.tencent.com/developer/article/1078507
 
@@ -84,7 +126,7 @@
   - 批量利用工具:https://github.com/SNCKER/CVE-2021-3129
 
 - CVE-2018-15133 laravel API_KEY泄露远程代码执行漏洞
-  - 漏洞影响版本:**5.5.x<=5.5.40 | 5.6.x<=5.6.29**
+  - 漏洞影响版本:**laravel 5.5.x-5.5.40 | 5.6.x-5.6.29**
   - 漏洞介绍及修复建议:https://laravel.com/docs/5.6/upgrade#upgrade-5.6.30
   - POC/EXP:http://blog.tuo0.com/2018/12/16/php/laravel-CVE-2018-15133%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90/
   - 批量利用工具:https://github.com/aljavier/exploit_laravel_cve-2018-15133
@@ -98,7 +140,7 @@
 
 ### 钉钉办公软件
 - 钉钉办公软件远程命令执行漏洞
-  - 漏洞影响版本:**6.3.5**
+  - 漏洞影响版本:**钉钉6.3.5**
   - 漏洞介绍及修复建议:https://www.cfanz.cn/resource/detail/nAvwlDExjLADB
   - POC/EXP:https://github.com/crazy0x70/dingtalk-RCE
 
