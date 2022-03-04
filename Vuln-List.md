@@ -4,6 +4,7 @@
 - [Zabbix监控系统](#Zabbix监控系统)
 - [Grafana](#Grafana)
 - [GitLab](#GitLab)
+- [Laravel](#Laravel)
 - [向日葵](#向日葵)
 - [钉钉办公软件](#钉钉办公软件)
 
@@ -29,26 +30,26 @@
 
 ### Grafana
 - CVE-2021-43798 Grafana任意文件读取漏洞
-  - 漏洞影响版本:**Grafana 8.x 系列**
+  - 漏洞影响版本:**Grafana 8.x系列**
   - 漏洞介绍及修复建议:https://www.wangan.com/p/7fy74775e35b0e9b
   - POC/EXP:https://cloud.tencent.com/developer/article/1922065
   - 批量利用工具:https://github.com/ScorpionsMAX/CVE-2021-43798-Grafana-POC
 
 ### GitLab
 - CVE-2021-22205 GitLab远程代码执行漏洞
-  - 漏洞影响版本:**11.9 <= Gitlab CE/EE < 13.8.8、13.9 <= Gitlab CE/EE < 13.9.6、13.10 <= Gitlab CE/EE < 13.10.3**
+  - 漏洞影响版本:**11.9<=Gitlab CE/EE<13.8.8 ｜ 13.9<=Gitlab CE/EE<13.9.6 ｜ 13.10<=Gitlab CE/EE<13.10.3**
   - 漏洞介绍及修复建议:https://cert.360.cn/warning/detail?id=3a92c000fa976ff46b5e9ce85e165477
   - POC/EXP:https://www.ddosi.org/cve-2021-22205
   - 批量利用工具:https://github.com/Al1ex/CVE-2021-22205
 
 - CVE-2021-22214 Gitlab API未授权SSRF漏洞
-  - 漏洞影响版本:**13.10.5 > GitLab >= 10.5、13.11.5 > GitLab >= 13.11、13.12.2 > GitLab >= 13.12**
+  - 漏洞影响版本:**13.10.5>GitLab>= 10.5 ｜ 13.11.5>GitLab>=13.11 ｜ 13.12.2>GitLab>=13.12**
   - 漏洞介绍及修复建议:https://nosec.org/home/detail/4772.html
   - POC/EXP:https://cloud.tencent.com/developer/article/1851527
   - 批量利用工具:https://github.com/r0ckysec/CVE-2021-22214
 
 - CVE-2020-10977 任意文件读取漏洞
-  - 漏洞影响版本:**GitLab EE >=8.5，<=12.9、GitLab CE >=8.5，<=12.9**
+  - 漏洞影响版本:**8.5<=GitLab EE/CE<=12.9**
   - 漏洞介绍及修复建议:https://www.freebuf.com/vuls/235982.html
   - POC/EXP:https://atsud0.me/2021/03/09/CVE-2020-10977%E6%BC%8F%E6%B4%9E%E5%A4%8D%E7%8E%B0
   - 批量利用工具:https://github.com/thewhiteh4t/cve-2020-10977
@@ -60,12 +61,12 @@
   - 批量利用工具:https://github.com/Snowming04/CVE-2018-18649
 
 - CVE-2018-14364 Gitlab远程代码执行漏洞
-  - 漏洞影响版本:**GitLab CE and EE 8.9.0 - 9.5.10、10.0.0 - 10.1.5、10.2.0 - 10.2.5、10.3.0 - 10.3.3**
+  - 漏洞影响版本:**GitLab CE/EE 8.9.0 - 9.5.10 | 10.0.0 - 10.1.5 | 10.2.0 - 10.2.5 | 10.3.0 - 10.3.3**
   - 漏洞介绍及修复建议:https://www.its203.com/article/YouthBelief/121279641?2022-03-04
   - POC/EXP:https://www.codetd.com/article/13363173
 
 - CVE-2017-0882 Gitlab敏感信息泄露漏洞
-  - 漏洞影响版本:**8.7.0至8.15.7、8.16.0至8.16.7、8.17.0至8.17.3**
+  - 漏洞影响版本:**GitLab 8.7.0-8.15.7、8.16.0-8.16.7、8.17.0-8.17.3**
   - 漏洞介绍及修复建议:https://help.aliyun.com/document_detail/51855.html
   - POC/EXP:https://www.daimajiaoliu.com/daima/481c4066610041c
 
@@ -73,6 +74,19 @@
   - 漏洞影响版本:**8.9、8.10、8.11、8.12 and 8.13**
   - 漏洞介绍及修复建议:https://github.com/vulhub/vulhub/blob/master/gitlab/CVE-2016-9086/README.zh-cn.md
   - POC/EXP:https://cloud.tencent.com/developer/article/1078507
+
+### Laravel
+- CVE-2021-3129 Laravel Debug mode远程代码执行漏洞
+  - 漏洞影响版本:**Laravel < 8.4.3 | Facade Ignition < 2.5.2**
+  - 漏洞介绍及修复建议:https://www.huaweicloud.com/notice/2018/20210113190058045.html
+  - POC/EXP:https://www.anquanke.com/post/id/231459
+  - 批量利用工具:https://github.com/SNCKER/CVE-2021-3129
+
+- CVE-2018-15133 laravel API_KEY泄露远程代码执行漏洞
+  - 漏洞影响版本:**5.5.x<=5.5.40 | 5.6.x<=5.6.29**
+  - 漏洞介绍及修复建议:https://laravel.com/docs/5.6/upgrade#upgrade-5.6.30
+  - POC/EXP:http://blog.tuo0.com/2018/12/16/php/laravel-CVE-2018-15133%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90/
+  - 批量利用工具:https://github.com/aljavier/exploit_laravel_cve-2018-15133
 
 ### 向日葵
 - CNVD-2022-10270 向日葵个人版for Windows命令执行漏洞
