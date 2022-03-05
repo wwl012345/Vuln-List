@@ -10,6 +10,7 @@
 - [Apache Shiro](#Apache-Shiro)
 - [Apache Log4j](#Apache-Log4j)
 - [Spring Cloud Gateway](#Spring-Cloud-Gateway)
+- [VMware](#VMware)
 - [Zabbix监控系统](#Zabbix监控系统)
 - [Grafana](#Grafana)
 - [GitLab](#GitLab)
@@ -111,7 +112,134 @@
   - 漏洞影响版本:**Spring Cloud Gateway<3.1.1、Spring Cloud Gateway<3.0.7、Spring Cloud Gateway 其他已不再更新的版本**
   - 漏洞介绍及修复建议:https://spring.io/blog/2022/03/01/spring-cloud-gateway-cve-reports-published
   - POC/EXP:https://github.com/vulhub/vulhub/blob/master/spring/CVE-2022-22947/README.zh-cn.md
-  - 批量利用脚本:https://raw.githubusercontent.com/dingxiao77/-cve-2022-22947-/main/spring_cloud_poc.py
+  - 批量利用脚本:https://github.com/chaosec2021/CVE-2022-22947-POC
+
+### VMware
+- CVE-2021-44228 Log4Shell VMware远程代码执行漏洞
+  - 漏洞影响版本:**VMware Horizon(8.x , 7.x) | VMware Vcenter Server(7.x , 6.7.x , 6.5.x)**
+  - 漏洞介绍及修复建议:https://www.pwndefend.com/2022/01/07/log4shell-exploitation-and-hunting-on-vmware-horizon-cve-2021-44228/
+  - POC/EXP:https://cloud.tencent.com/developer/article/1922132
+  - 批量利用脚本:https://github.com/fullhunt/log4j-scan
+
+- CVE-2021-22020 VMware vCenter Server Analytics拒绝服务漏洞
+  - 漏洞影响版本:**VMware vCenter Server(7.0 U2c之前的7.x , 6.7 U3o之前的6.7) | VMware Cloud Foundation(4.3 之前的4.x , 3.10.2.2之前的3.x)**
+  - 漏洞介绍及修复建议:https://www.cve.org/CVERecord?id=CVE-2021-22020
+  - POC/EXP:暂无
+
+- CVE-2021-22019 VMware vCenter Server拒绝服务漏洞
+  - 漏洞影响版本:**VMware vCenter Server(7.0 U2c之前的7.x , 6.7 U3o之前的6.7和6.5 U3q之前的6.5) | VMware Cloud Foundation(4.3之前的4.x和3.10.2.2之前的3.x)**
+  - 漏洞介绍及修复建议:https://www.cve.org/CVERecord?id=CVE-2021-22019
+  - POC/EXP:暂无
+
+- CVE-2021-22018 VMware vCenter Server任意文件删除漏洞
+  - 漏洞影响版本:**VMware vCenter Server(7.0.2 U2d之前的7.x) | VMware Cloud Foundation(4.3.1之前的4.x)**
+  - 漏洞介绍及修复建议:https://www.cve.org/CVERecord?id=CVE-2021-22018
+  - POC/EXP:暂无
+
+- CVE-2021-22017 VMware vCenter Server rhttpproxy绕过漏洞
+  - 漏洞影响版本:**VMware vCenter Server(6.7 U3o之前的6.7.x和6.5U3q之前的6.5.x) | VMware Cloud Foundation(3.10.2.2之前的3.x)**
+  - 漏洞介绍及修复建议:https://www.cve.org/CVERecord?id=CVE-2021-22017
+  - POC/EXP:https://xz.aliyun.com/t/10603
+
+- CVE-2021-22016 VMware vCenter Server XSS漏洞
+  - 漏洞影响版本:**VMware vCenter Server(6.7 U3o之前的6.7) | VMware Cloud Foundation(3.10.2.2之前的3.x)**
+  - 漏洞介绍及修复建议:https://www.cve.org/CVERecord?id=CVE-2021-22016
+  - POC/EXP:暂无
+
+- CVE-2021-22015 VMware vCenter Server权限提升漏洞
+  - 漏洞影响版本:**VMware vCenter Server(7.0 U2c之前的7.x , 6.7 U3o之前的6.7 , 6.5 U3q之前的6.5) | VMware Cloud Foundation(4.3之前的4.x , 3.10.2.2之前的3.x)**
+  - 漏洞介绍及修复建议:https://www.cve.org/CVERecord?id=CVE-2021-22015
+  - POC/EXP:暂无
+  - 批量利用脚本:https://github.com/PenteraIO/vScalation-CVE-2021-22015
+
+- CVE-2021-22014 VMware vCenter Server后台远程代码执行漏洞
+  - 漏洞影响版本:**VMware vCenter Server(7.0 U2c之前的7.x , 6.7 U3o之前的6.7 , 6.5 U3q之前的6.5) | VMware Cloud Foundation(4.3之前的4.x , 3.10.2.2之前的3.x）**
+  - 漏洞介绍及修复建议:https://wxx.olzl.net/21i29t42
+  - POC/EXP:暂无
+
+- CVE-2021-22013 VMware vCenter Server 目录遍历漏洞
+  - 漏洞影响版本:**VMware vCenter Server(6.5 U3q之前的6.5)**
+  - 漏洞介绍及修复建议:https://www.cve.org/CVERecord?id=CVE-2021-22013
+  - POC/EXP:暂无
+
+- CVE-2021-22012 VMware vCenter Server API敏感信息泄漏漏洞
+  - 漏洞影响版本:**VMware vCenter Server(6.5 U3q之前的6.5)**
+  - 漏洞介绍及修复建议:https://www.cve.org/CVERecord?id=CVE-2021-22012
+  - POC/EXP:暂无
+
+- CVE-2021-22011 VMware vCenter ServerAPI未授权访问漏洞
+  - 漏洞影响版本:**VMware vCenter Server(7.0.2 U2d之前的7.x , 6.7 U3o之前的6.7 , 6.5 U3q之前的6.5 | VMware Cloud Foundation(4.3.1之前的4.x和3.10.2.2之前的3.x)**
+  - 漏洞介绍及修复建议:https://www.cve.org/CVERecord?id=CVE-2021-22011
+  - POC/EXP:暂无
+
+- CVE-2021-22010 VMware vCenter Server VPXD拒绝服务漏洞
+  - 漏洞影响版本:**VMware vCenter Server(7.0 U2c之前的7.x , 6.7 U3o之前的6.7) | VMware Cloud Foundation(4.3之前的4.x , 3.10.2.2之前的3.x)**
+  - 漏洞介绍及修复建议:https://www.cve.org/CVERecord?id=CVE-2021-22010
+  - POC/EXP:暂无
+
+- CVE-2021-22009 VMware vCenter Server VApi多个拒绝服务漏洞
+  - 漏洞影响版本:**VMware vCenter Server(7.0 U2c之前的7.x , 6.7 U3o之前的6.7 , 6.5 U3q之前的6.5) | VMware Cloud Foundation(4.3之前的4.x , 3.10.2.2之前的3.x)**
+  - 漏洞介绍及修复建议:https://www.cve.org/CVERecord?id=CVE-2021-22009
+  - POC/EXP:暂无
+
+- CVE-2021-22008 VMware vCenter Server敏感信息泄漏漏洞
+  - 漏洞影响版本:**VMware vCenter Server(7.0 U2c之前的7.x , 6.7 U3o之前的6.7 , 6.5 U3q之前的6.5) | VMware Cloud Foundation(4.3之前的4.x , 3.10.2.2之前的3.x)**
+  - 漏洞介绍及修复建议:https://www.cve.org/CVERecord?id=CVE-2021-22008
+  - POC/EXP:暂无
+
+- CVE-2021-22007 VMware vCenter Server本地信息泄漏漏洞
+  - 漏洞影响版本:**VMware vCenter Server(7.0 U2c之前的7.x , 6.7 U3o之前的6.7) | VMware Cloud Foundation(4.3之前的4.x , 3.10.2.2之前的3.x)**
+  - 漏洞介绍及修复建议:https://www.cve.org/CVERecord?id=CVE-2021-22007
+  - POC/EXP:暂无
+
+- CVE-2021-22006 VMware vCenter Server反向代理绕过漏洞
+  - 漏洞影响版本:**VMware vCenter Server(7.0 U2c之前的7.x , 6.7 U3o之前的6.7) | VMware Cloud Foundation(4.3之前的4.x , 3.10.2.2之前的3.x)**
+  - 漏洞介绍及修复建议:https://www.cve.org/CVERecord?id=CVE-2021-22006
+  - POC/EXP:暂无
+
+- CVE-2021-22005 VMware vCenter Server任意文件上传漏洞
+  - 漏洞影响版本:**VMware vCenter Server 7.0系列 < 7.0 U2c ｜ VMware vCenter Server 6.7系列 < 6.7 U3o*
+  - 漏洞介绍及修复建议:https://www.vmware.com/security/advisories/VMSA-2021-0020.html
+  - POC/EXP:https://cloud.tencent.com/developer/article/1899771
+  - 批量利用脚本:https://github.com/r0ckysec/CVE-2021-22005
+
+- CVE-2021-21993 VMware vCenter Server SSRF漏洞
+  - 漏洞影响版本:**VMware vCenter Server(7.0 U2c之前的7.x , 6.7 U3o之前的6.7 , 6.5 U3q之前的6.5.x) | VMware Cloud Foundation(4.3之前的4.x , 3.10.2.2之前的3.x)**
+  - 漏洞介绍及修复建议:https://www.cve.org/CVERecord?id=CVE-2021-21993
+  - POC/EXP:暂无
+
+- CVE-2021-21992 VMware vCenter Server XML拒绝服务漏洞
+  - 漏洞影响版本:**VMware vCenter Server(7.0 U2c之前的7.x , 6.7 U3o之前的6.7 , 6.5 U3q之前的6.5.x) | VMware Cloud Foundation(4.3之前的4.x , 3.10.2.2之前的3.x)**
+  - 漏洞介绍及修复建议:https://www.cve.org/CVERecord?id=CVE-2021-21992
+  - POC/EXP:暂无
+
+- CVE-2021-21991 VMware vCenter Server本地提权漏洞
+  - 漏洞影响版本:**VMware vCenter Server(7.0 U2c之前的7.x , 6.7 U3o之前的6.7 , 6.5 U3q之前的6.5.x) | VMware Cloud Foundation(4.3之前的4.x , 3.10.2.2之前的3.x)**
+  - 漏洞介绍及修复建议:https://www.cve.org/CVERecord?id=CVE-2021-21991
+  - POC/EXP:暂无
+
+- CVE-2021-21985 VMware vCenter Server远程代码执行漏洞
+  - 漏洞影响版本:**VMware vCenter Server(7.0 U2b之前的7.x , 6.7 U3n之前的6.7.x , 6.5 U3p之前的6.5.x) | VMware Cloud Foundation(4.2.1之前的4.x , 3.10.2.1之前的3.x)**
+  - 漏洞介绍及修复建议:https://www.anquanke.com/post/id/242337
+  - POC/EXP:https://cloud.tencent.com/developer/article/1851525
+  - 批量利用脚本:https://github.com/r0ckysec/CVE-2021-21985
+
+- CVE-2021-21974 VMware ESXI 堆溢出漏洞
+  - 漏洞影响版本:**VMware ESXi(ESXi70U1c-17325551之前的7.0.x , ESXi670-202102401-SG之前的6.7.x , ESXi650-202102101-SG之前的6.5.x) | VMware Cloud Foundation(4.2之前的4.0.x , 3.x)**
+  - 漏洞介绍及修复建议:https://www.cve.org/CVERecord?id=CVE-2021-21974
+  - POC/EXP:https://github.com/Shadow0ps/CVE-2021-21974
+
+- CVE-2021-21973 VMware vCenter Server SSRF漏洞
+  - 漏洞影响版本:**VMware vCenter Server(7.0 U1c之前的7.x , 6.7 U3l之前的6.7.x , 6.5 U3n之前的6.5.x) | VMware Cloud Foundation(4.2之前的4.x , 3.10.1.2之前的3.x)**
+  - 漏洞介绍及修复建议:https://www.cve.org/CVERecord?id=CVE-2021-21973
+  - POC/EXP:https://cloud.tencent.com/developer/article/1940072
+  - 批量利用脚本:https://github.com/freakanonymous/CVE-2021-21973-Automateme
+
+- CVE-2021-21972 Vmware vCenter未授权任意文件上传漏洞
+  - 漏洞影响版本:**VMware vCenter Server(7.0 U1c之前的7.x , 6.7之前6.7 U3l , 6.5之前的6.5 U3n) | VMware Cloud Foundation(4.2之前的4.x , 3.10.1.2之前的3.x)**
+  - 漏洞介绍及修复建议:https://xz.aliyun.com/t/9238
+  - POC/EXP:https://www.freebuf.com/vuls/264293.html
+  - 批量利用脚本:https://github.com/NS-Sp4ce/CVE-2021-21972
 
 ### Zabbix监控系统
 - CVE-2022-23131 Zabbix登录绕过漏洞
