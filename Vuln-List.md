@@ -16,6 +16,7 @@
 - [GitLab](#GitLab)
 - [Laravel](#Laravel)
 - [Linux本地提权](#Linux本地提权)
+- [F5 BIG IP](#F5-BIG-IP)
 - [向日葵](#向日葵)
 - [钉钉办公软件](#钉钉办公软件)
 - [Clash](#Clash)
@@ -287,7 +288,7 @@
   - 批量利用工具:https://github.com/Snowming04/CVE-2018-18649
 
 - CVE-2018-14364 Gitlab远程代码执行漏洞
-  - 漏洞影响版本:**GitLab CE/EE 8.9.0-9.5.10 | 10.0.0-10.1.5 | 10.2.0-10.2.5 | 10.3.0-10.3.3**
+  - 漏洞影响版本:**GitLab CE/EE 8.9.0-9.5.10、10.0.0-10.1.5、10.2.0-10.2.5、10.3.0-10.3.3**
   - 漏洞介绍及修复建议:https://www.its203.com/article/YouthBelief/121279641?2022-03-04
   - POC/EXP:https://www.codetd.com/article/13363173
 
@@ -349,6 +350,49 @@
   - 漏洞影响版本:**配置了sudoer文件特殊权限的系统**
   - 漏洞介绍及修复建议:https://cloud.tencent.com/developer/article/1708368
   - POC/EXP:https://developer.aliyun.com/article/654362
+
+### F5 BIG IP
+- CVE-2021-22992 Advanced WAF/ASM缓冲区溢出漏洞
+  - 漏洞影响版本:**BIG-IP(All Modules):16.0.0-16.0.1、15.1.0-15.1.2、14.1.0-14.1.3.1、13.1.0-13.1.3.5、12.1.0-12.1.5.2**
+  - 漏洞介绍及修复建议:https://www.venustech.com.cn/new_type/aqtg/20210311/22484.html
+  - POC/EXP:暂无
+
+- CVE-2021-22991 BIG-IP 缓冲区溢出漏洞
+  - 漏洞影响版本:**BIG-IP(All Modules):16.0.0-16.0.1、15.1.0-15.1.2、14.1.0-14.1.3.1、13.1.0-13.1.3.5、12.1.0-12.1.5.2**
+  - 漏洞介绍及修复建议:https://www.venustech.com.cn/new_type/aqtg/20210311/22484.html
+  - POC/EXP:https://github.com/EdgeSecurityTeam/Vulnerability/blob/main/BIG-IP%20%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA%E6%BC%8F%E6%B4%9E%20(CVE-2021-22991).md
+
+- CVE-2021-22990 Advanced WAF/ASM TMUI后台远程代码执行漏洞
+  - 漏洞影响版本:**F5 BIG-IP 16.0.0-16.0.1、15.1.0-15.1.2、14.1.0-14.1.3.1、13.1.0-13.1.3.5、12.1.0-12.1.5.2、11.6.1-11.6.5.2**
+  - 漏洞介绍及修复建议:https://xz.aliyun.com/t/9312
+  - POC/EXP:暂无
+
+- CVE-2021-22989 Advanced WAF/ASM TMUI后台远程代码执行漏洞
+  - 漏洞影响版本:**F5 BIG-IP 16.0.0-16.0.1、15.1.0-15.1.2、14.1.0-14.1.3.1、13.1.0-13.1.3.5、12.1.0-12.1.5.2、11.6.1-11.6.5.2**
+  - 漏洞介绍及修复建议:https://xz.aliyun.com/t/9312
+  - POC/EXP:暂无
+
+- CVE-2021-22988 BIG-IP TMUI后台远程代码执行漏洞
+  - 漏洞影响版本:**F5 BIG-IP 16.0.0-16.0.1、15.1.0-15.1.2、14.1.0-14.1.3.1、13.1.0-13.1.3.5、12.1.0-12.1.5.2、11.6.1-11.6.5.2**
+  - 漏洞介绍及修复建议:https://xz.aliyun.com/t/9312
+  - POC/EXP:暂无
+
+- CVE-2021-22987 BIG-IP TMUI后台远程代码执行漏洞
+  - 漏洞影响版本:**F5 BIG-IP 16.0.0-16.0.1、15.1.0-15.1.2、14.1.0-14.1.3.1、13.1.0-13.1.3.5、12.1.0-12.1.5.2、11.6.1-11.6.5.2**
+  - 漏洞介绍及修复建议:https://xz.aliyun.com/t/9312
+  - POC/EXP:暂无
+
+- CVE-2021-22986 BIG-IP/BIG-IQ iControl REST未授权远程代码执行漏洞
+  - 漏洞影响版本:**F5 BIG-IP 16.0.0-16.0.1、15.1.0-15.1.2、14.1.0-14.1.3.1、13.1.0-13.1.3.5、12.1.0-12.1.5.2 ｜ F5 BIG-IQ 7.1.0-7.1.0.2、7.0.0-7.0.0.1、6.0.0-6.1.0**
+  - 漏洞介绍及修复建议:https://xz.aliyun.com/t/9312
+  - POC/EXP:https://www.freebuf.com/vuls/266971.html
+  - 批量利用脚本:https://github.com/Al1ex/CVE-2021-22986
+
+- CVE-2020-5902 F5 BIG-IP远程代码执行漏洞
+  - 漏洞影响版本:**F5 BIG‐IP 15.1.0、15.0.0、14.1.0‐14.1.2、13.1.0‐13.1.3、12.1.0‐12.1.5、11.6.1‐11.6.5**
+  - 漏洞介绍及修复建议:https://www.anquanke.com/post/id/209767
+  - POC/EXP:https://github.com/yassineaboukir/CVE-2020-5902
+  - 批量利用脚本:https://github.com/jas502n/CVE-2020-5902
 
 ### 向日葵
 - CNVD-2022-10270 向日葵个人版for Windows命令执行漏洞
