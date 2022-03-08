@@ -15,6 +15,7 @@
 - [Grafana](#Grafana)
 - [GitLab](#GitLab)
 - [Laravel](#Laravel)
+- [Linux本地提权](#Linux本地提权)
 - [向日葵](#向日葵)
 - [钉钉办公软件](#钉钉办公软件)
 - [Clash](#Clash)
@@ -312,6 +313,42 @@
   - 漏洞介绍及修复建议:https://laravel.com/docs/5.6/upgrade#upgrade-5.6.30
   - POC/EXP:http://blog.tuo0.com/2018/12/16/php/laravel-CVE-2018-15133%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90/
   - 批量利用工具:https://github.com/aljavier/exploit_laravel_cve-2018-15133
+
+### Linux本地提权
+- CVE-2022-0847 Linux Dirty Pipe本地提权漏洞
+  - 漏洞影响版本**5.8 <= Linux 内核版本 < 5.16.11 / 5.15.25 / 5.10.102**
+  - 漏洞介绍及修复建议:https://mp.weixin.qq.com/s/b8DmtIerXuoC7f3nqaOVIw
+  - POC/EXP:https://github.com/Arinerron/CVE-2022-0847-DirtyPipe-Exploit
+
+- CVE-2021-3156Sudo 堆缓冲区溢出提权漏洞
+  - 漏洞影响版本:**Sudo 1.8.2-1.8.31p2 | Sudo 1.9.0-1.9.5p1**
+  - 漏洞介绍及修复建议:https://www.freebuf.com/vuls/270839.html
+  - POC/EXP:https://haxx.in/CVE-2021-3156_nss_poc_ubuntu.tar.gz
+
+- CVE-2021-22555 Linux Netfilter越界写提权漏洞
+  - 漏洞影响版本:**2.6.19-rc1 <= Linux Kernel**
+  - 漏洞介绍及修复建议:https://www.anquanke.com/post/id/251515
+  - POC/EXP:https://github.com/google/security-research/blob/master/pocs/linux/cve-2021-22555/exploit.c
+
+- CVE-2021-4034 pkexec 本地提权漏洞
+  - 漏洞影响版本:**大多数主流linux系统均受影响**
+  - 漏洞介绍及修复建议:https://cert.360.cn/warning/detail?id=25d7a6ec96c91ca4e4238fd10da2c778
+  - POC/EXP:https://github.com/EstamelGG/CVE-2021-4032-NoGCC/releases/tag/v1.0
+
+- CVE-2016-5195 Linux脏牛本地提权漏洞
+  - 漏洞影响版本:**Linux kernel >= 2.6.22**
+  - 漏洞介绍及修复建议:https://www.jianshu.com/p/df72d1ee1e3e
+  - POC/EXP:https://github.com/dirtycow/dirtycow.github.io/blob/master/dirtyc0w.c
+
+- Linux Suid提权漏洞
+  - 漏洞影响版本:**配置了特殊权限的系统**
+  - 漏洞介绍及修复建议:https://www.freebuf.com/articles/web/272617.html
+  - POC/EXP:https://jlkl.github.io/2020/01/27/Web_15/
+
+- Linux Sudo提权漏洞
+  - 漏洞影响版本:**配置了sudoer文件特殊权限的系统**
+  - 漏洞介绍及修复建议:https://cloud.tencent.com/developer/article/1708368
+  - POC/EXP:https://developer.aliyun.com/article/654362
 
 ### 向日葵
 - CNVD-2022-10270 向日葵个人版for Windows命令执行漏洞
