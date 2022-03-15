@@ -345,6 +345,7 @@
   - 漏洞影响版本:**配置了特殊权限的系统**
   - 漏洞介绍及修复建议:https://www.freebuf.com/articles/web/272617.html
   - POC/EXP:https://jlkl.github.io/2020/01/27/Web_15/
+  - 批量利用工具:https://github.com/Jewel591/suidcheck
 
 - Linux Sudo提权漏洞
   - 漏洞影响版本:**配置了sudoer文件特殊权限的系统**
