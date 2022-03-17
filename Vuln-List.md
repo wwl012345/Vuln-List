@@ -341,6 +341,11 @@
   - 漏洞介绍及修复建议:https://cert.360.cn/warning/detail?id=25d7a6ec96c91ca4e4238fd10da2c778
   - POC/EXP:https://github.com/EstamelGG/CVE-2021-4032-NoGCC/releases/tag/v1.0
 
+- CVE-2021-3493 Linux kernel本地提权漏洞
+  - 漏洞影响版本:**Ubuntu 20.10 | Ubuntu 20.04 LTS | Ubuntu 18.04 LTS | Ubuntu 16.04 LTS | Ubuntu 14.04 ESM**
+  - 漏洞介绍及修复建议:https://mp.weixin.qq.com/s/D2LM7OUvbiNYXfPG-peU3A
+  - POC/EXP:https://github.com/briskets/CVE-2021-3493
+
 - CVE-2021-3156 Sudo 堆缓冲区溢出提权漏洞
   - 漏洞影响版本:**Sudo 1.8.2-1.8.31p2 | Sudo 1.9.0-1.9.5p1**
   - 漏洞介绍及修复建议:https://www.freebuf.com/vuls/270839.html
