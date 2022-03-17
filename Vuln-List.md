@@ -341,10 +341,15 @@
   - 漏洞介绍及修复建议:https://cert.360.cn/warning/detail?id=25d7a6ec96c91ca4e4238fd10da2c778
   - POC/EXP:https://github.com/EstamelGG/CVE-2021-4032-NoGCC/releases/tag/v1.0
 
-- CVE-2021-3156Sudo 堆缓冲区溢出提权漏洞
+- CVE-2021-3156 Sudo 堆缓冲区溢出提权漏洞
   - 漏洞影响版本:**Sudo 1.8.2-1.8.31p2 | Sudo 1.9.0-1.9.5p1**
   - 漏洞介绍及修复建议:https://www.freebuf.com/vuls/270839.html
   - POC/EXP:https://haxx.in/CVE-2021-3156_nss_poc_ubuntu.tar.gz
+
+- CVE-2020-8835 ebpf任意读写提权漏洞
+  - 漏洞影响版本:**5.4.7 <= Linux Kernel < 5.4.x | 5.5.0 <= Linux Kernel**
+  - 漏洞介绍及修复建议:https://nvd.nist.gov/vuln/detail/CVE-2020-8835
+  - POC/EXP:https://github.com/zilong3033/CVE-2020-8835
 
 - CVE-2019-13272 Linux本地内核提权漏洞
   - 漏洞影响版本:**Linux Kernel < 5.1.17**
