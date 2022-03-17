@@ -346,6 +346,11 @@
   - 漏洞介绍及修复建议:https://mp.weixin.qq.com/s/D2LM7OUvbiNYXfPG-peU3A
   - POC/EXP:https://github.com/briskets/CVE-2021-3493
 
+- CVE-2021-3490 Linux_LPE_eBPF本地提权漏洞
+  - 漏洞影响版本:**Ubuntu 20.10(Groovy Gorilla)kernels 5.8.0(25.26)-5.8.0(52.58) | Ubuntu 21.04(Hirsute Hippo)5.11.0(16.17)**
+  - 漏洞介绍及修复建议:https://www.graplsecurity.com/post/kernel-pwning-with-ebpf-a-love-story
+  - POC/EXP:https://github.com/chompie1337/Linux_LPE_eBPF_CVE-2021-3490
+
 - CVE-2021-3156 Sudo 堆缓冲区溢出提权漏洞
   - 漏洞影响版本:**Sudo 1.8.2-1.8.31p2 | Sudo 1.9.0-1.9.5p1**
   - 漏洞介绍及修复建议:https://www.freebuf.com/vuls/270839.html
