@@ -346,7 +346,7 @@
   - 漏洞介绍及修复建议:https://www.freebuf.com/vuls/270839.html
   - POC/EXP:https://haxx.in/CVE-2021-3156_nss_poc_ubuntu.tar.gz
 
-- CVE-2020-8835 ebpf任意读写提权漏洞
+- CVE-2020-8835 eBPF任意读写提权漏洞
   - 漏洞影响版本:**5.4.7 <= Linux Kernel < 5.4.x | 5.5.0 <= Linux Kernel**
   - 漏洞介绍及修复建议:https://nvd.nist.gov/vuln/detail/CVE-2020-8835
   - POC/EXP:https://github.com/zilong3033/CVE-2020-8835
