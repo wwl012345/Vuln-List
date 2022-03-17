@@ -321,6 +321,16 @@
   - 漏洞介绍及修复建议:https://mp.weixin.qq.com/s/b8DmtIerXuoC7f3nqaOVIw
   - POC/EXP:https://github.com/Arinerron/CVE-2022-0847-DirtyPipe-Exploit
 
+- CVE-2021-33909 Linux kernel本地提权漏洞
+  - 漏洞影响版本:**3.16 <= Linux kernel <= 5.13.3**
+  - 漏洞介绍及修复建议:https://www.4hou.com/posts/lXGJ
+  - POC/EXP:https://github.com/Liang2580/CVE-2021-33909
+
+- CVE-2021-31440 Linux内核eBPF提权漏洞
+  - 漏洞影响版本:**Linux kernel >= 5.7**
+  - 漏洞介绍及修复建议:https://www.anquanke.com/post/id/242567
+  - POC/EXP:暂无
+
 - CVE-2021-3156Sudo 堆缓冲区溢出提权漏洞
   - 漏洞影响版本:**Sudo 1.8.2-1.8.31p2 | Sudo 1.9.0-1.9.5p1**
   - 漏洞介绍及修复建议:https://www.freebuf.com/vuls/270839.html
