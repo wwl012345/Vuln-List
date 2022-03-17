@@ -336,6 +336,16 @@
   - 漏洞介绍及修复建议:https://cert.360.cn/warning/detail?id=25d7a6ec96c91ca4e4238fd10da2c778
   - POC/EXP:https://github.com/EstamelGG/CVE-2021-4032-NoGCC/releases/tag/v1.0
 
+- CVE-2019-13272 Linux本地内核提权漏洞
+  - 漏洞影响版本:**Linux Kernel < 5.1.17**
+  - 漏洞介绍及修复建议:https://cloud.tencent.com/developer/article/1528508
+  - POC/EXP:https://github.com/bcoles/kernel-exploits/tree/master/CVE-2019-13272
+
+- CVE-2018-17182 Linux 内核VMA-UAF提权漏洞
+  - 漏洞影响版本:**Linux kernel <= 4.18.8**
+  - 漏洞介绍及修复建议:https://www.cnblogs.com/backlion/p/9729914.html
+  - POC/EXP:https://github.com/backlion/CVE-2018-17182
+
 - CVE-2016-5195 Linux脏牛本地提权漏洞
   - 漏洞影响版本:**Linux kernel >= 2.6.22**
   - 漏洞介绍及修复建议:https://www.jianshu.com/p/df72d1ee1e3e
