@@ -10,6 +10,7 @@
 - [Apache Shiro](#Apache-Shiro)
 - [Apache Log4j](#Apache-Log4j)
 - [Spring Cloud Gateway](#Spring-Cloud-Gateway)
+- [redis getshell](#redis-getshell)
 - [VMware](#VMware)
 - [Zabbix监控系统](#Zabbix监控系统)
 - [Grafana](#Grafana)
@@ -115,6 +116,19 @@
   - 漏洞介绍及修复建议:https://spring.io/blog/2022/03/01/spring-cloud-gateway-cve-reports-published
   - POC/EXP:https://github.com/vulhub/vulhub/blob/master/spring/CVE-2022-22947/README.zh-cn.md
   - 批量利用脚本:https://github.com/chaosec2021/CVE-2022-22947-POC
+
+### redis getshell
+- CVE-2022-0543 Redis Lua沙箱绕过远程代码执行漏洞
+  - 漏洞影响版本:**运行在Debian、Ubuntu或其他基于Debian的Linux发行版系统上的Redis服务**
+  - 漏洞介绍及修复建议:https://mp.weixin.qq.com/s/SF1RwP0h9Snq4n7nRpJY-g
+  - POC/EXP:https://www.adminxe.com/3620.html
+  - 批量利用脚本:https://github.com/aodsec/CVE-2022-0543
+
+- Redis未授权访问远程代码执行漏洞
+  - 漏洞影响版本:**未授权访问redis或者已知账号密码**
+  - 漏洞介绍及修复建议:https://blog.csdn.net/Jietewang/article/details/119540542
+  - POC/EXP:https://www.freebuf.com/articles/network/280984.html
+  - 批量利用脚本:https://github.com/Ridter/redis-rce
 
 ### VMware
 - CVE-2021-44228 Log4Shell VMware远程代码执行漏洞
