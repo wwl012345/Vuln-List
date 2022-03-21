@@ -7,11 +7,17 @@
 
 # 项目列表
 
+- [提权辅助工具](#提权辅助工具)
 - [Windows本地提权漏洞](#Windows本地提权漏洞)
-
 - [Linux本地提权漏洞](#Linux本地提权漏洞)
 
 # 漏洞列表
+
+### 提权辅助工具
+- Windows/Linux辅助提权工具汇总:https://cloud.tencent.com/developer/article/1944250?from=15425
+- Windows提权辅助工具:https://i.hacking8.com/tiquan
+- Linux提权扫描脚本:https://github.com/mzet-/linux-exploit-suggester
+- Linux提权命令一览表:https://gtfobins.github.io
 
 ### Linux本地提权漏洞
 - CVE-2022-0847 Linux Dirty Pipe本地提权漏洞
