@@ -7,9 +7,9 @@
 
 # 项目列表
 
-[Windows本地提权漏洞](#Windows本地提权漏洞)
+- [Windows本地提权漏洞](#Windows本地提权漏洞)
 
-[Linux本地提权漏洞](#Linux本地提权漏洞)
+- [Linux本地提权漏洞](#Linux本地提权漏洞)
 
 # 漏洞列表
 
