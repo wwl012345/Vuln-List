@@ -350,10 +350,15 @@
   - 漏洞介绍及修复建议:https://www.anquanke.com/post/id/251515
   - POC/EXP:https://github.com/google/security-research/blob/master/pocs/linux/cve-2021-22555/exploit.c
 
-- CVE-2021-4034 pkexec 本地提权漏洞
+- CVE-2021-4034 pkexec本地提权漏洞
   - 漏洞影响版本:**大多数主流linux系统均受影响**
   - 漏洞介绍及修复建议:https://cert.360.cn/warning/detail?id=25d7a6ec96c91ca4e4238fd10da2c778
   - POC/EXP:https://github.com/EstamelGG/CVE-2021-4032-NoGCC/releases/tag/v1.0
+
+- CVE-2021-3560 Polkit权限提升漏洞
+  - 漏洞影响版本:**RHEL8 ｜ Fedora21及更高版本 ｜ Debiantesting("bullseye") ｜ Ubuntu20.04**
+  - 漏洞介绍及修复建议:https://www.freebuf.com/vuls/281081.html
+  - POC/EXP:https://github.com/Almorabea/Polkit-exploit
 
 - CVE-2021-3493 Linux kernel本地提权漏洞
   - 漏洞影响版本:**Ubuntu 20.10 | Ubuntu 20.04 LTS | Ubuntu 18.04 LTS | Ubuntu 16.04 LTS | Ubuntu 14.04 ESM**
@@ -375,20 +380,45 @@
   - 漏洞介绍及修复建议:https://nvd.nist.gov/vuln/detail/CVE-2020-8835
   - POC/EXP:https://github.com/zilong3033/CVE-2020-8835
 
+- CVE-2019-14287 sudo权限绕过提权漏洞
+  - 漏洞影响版本:**sudo < 1.8.28**
+  - 漏洞介绍及修复建议:https://cloud.tencent.com/developer/article/1553933
+  - POC/EXP:https://github.com/n0w4n/CVE-2019-14287
+
 - CVE-2019-13272 Linux本地内核提权漏洞
   - 漏洞影响版本:**Linux Kernel < 5.1.17**
   - 漏洞介绍及修复建议:https://cloud.tencent.com/developer/article/1528508
   - POC/EXP:https://github.com/bcoles/kernel-exploits/tree/master/CVE-2019-13272
+
+- CVE-2018-18955 Linux内核提权漏洞
+  - 漏洞影响版本:**4.15.x < Linux Kernel < 4.19.2**
+  - 漏洞介绍及修复建议:https://www.freebuf.com/vuls/197122.html
+  - POC/EXP:https://www.exploit-db.com/exploits/45886
 
 - CVE-2018-17182 Linux 内核VMA-UAF提权漏洞
   - 漏洞影响版本:**Linux kernel <= 4.18.8**
   - 漏洞介绍及修复建议:https://www.cnblogs.com/backlion/p/9729914.html
   - POC/EXP:https://github.com/backlion/CVE-2018-17182
 
+- CVE-2017-1000405 Huge Dirty COW本地提权漏洞
+  - 漏洞影响版本:**2.6.38 <= Linux kernel <= 4.14**
+  - 漏洞介绍及修复建议:https://www.freebuf.com/column/203162.html
+  - POC/EXP:https://github.com/bindecy/HugeDirtyCowPOC
+
+- CVE–2017–1000253 Linux PIE/stack内存破坏本地提权漏洞
+  - 漏洞影响版本:**CentOS < CentOS 7(1708版本) ｜ Red Hat < Red Hat Enterprise Linux 7(7.4) | CentOS 6.x | Red Hat 7.x**
+  - 漏洞介绍及修复建议:https://www.anquanke.com/post/id/86939
+  - POC/EXP:暂无
+
 - CVE-2016-5195 Linux脏牛本地提权漏洞
   - 漏洞影响版本:**Linux kernel >= 2.6.22**
   - 漏洞介绍及修复建议:https://www.jianshu.com/p/df72d1ee1e3e
   - POC/EXP:https://github.com/dirtycow/dirtycow.github.io/blob/master/dirtyc0w.c
+
+- CVE-2016-4557 Linux-raspi2本地提权漏洞
+  - 漏洞影响版本:**Linux kernel <= 4.5.4**
+  - 漏洞介绍及修复建议:https://vuldb.com/zh/?id.87604
+  - POC/EXP:https://www.exploit-db.com/exploits/39772
 
 - Linux Suid提权漏洞
   - 漏洞影响版本:**配置了特殊权限的系统**
