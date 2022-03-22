@@ -25,6 +25,16 @@
   - 漏洞介绍及修复建议:https://mp.weixin.qq.com/s/b8DmtIerXuoC7f3nqaOVIw
   - POC/EXP:https://github.com/Arinerron/CVE-2022-0847-DirtyPipe-Exploit
 
+- CVE-2021-43267 Linux kernel TIPC任意代码执行权限提升漏洞
+  - 漏洞影响版本:**5.10 < Linux Kernel < 5.15**
+  - 漏洞介绍及修复建议:https://www.secrss.com/articles/36572
+  - POC/EXP:https://github.com/ohnonoyesyes/CVE-2021-43267
+
+- CVE-2021-42008 Linux kernel越界写入权限提升漏洞
+  - 漏洞影响版本:**2.1.94 <= Linux kernel <= 5.13.3**
+  - 漏洞介绍及修复建议:https://www.jianshu.com/p/d4d2874ed356
+  - POC/EXP:https://github.com/0xdevil/CVE-2021-42008
+
 - CVE-2021-33909 Linux kernel本地提权漏洞
   - 漏洞影响版本:**3.16 <= Linux kernel <= 5.13.3**
   - 漏洞介绍及修复建议:https://www.4hou.com/posts/lXGJ
@@ -60,15 +70,25 @@
   - 漏洞介绍及修复建议:https://www.graplsecurity.com/post/kernel-pwning-with-ebpf-a-love-story
   - POC/EXP:https://github.com/chompie1337/Linux_LPE_eBPF_CVE-2021-3490
 
-- CVE-2021-3156 Sudo 堆缓冲区溢出提权漏洞
+- CVE-2021-3156 Sudo堆缓冲区溢出提权漏洞
   - 漏洞影响版本:**Sudo 1.8.2-1.8.31p2 | Sudo 1.9.0-1.9.5p1**
   - 漏洞介绍及修复建议:https://www.freebuf.com/vuls/270839.html
   - POC/EXP:https://haxx.in/CVE-2021-3156_nss_poc_ubuntu.tar.gz
+
+- CVE-2020-27194 Linux内核eBPF权限提升漏洞
+  - 漏洞影响版本:**5.7 <= Linux kernel <= 5.8.14**
+  - 漏洞介绍及修复建议:http://official.hnyongxu.com:417/mobile/SecurityIncidents/124.html
+  - POC/EXP:https://github.com/xmzyshypnc/CVE-2020-27194
 
 - CVE-2020-8835 eBPF任意读写提权漏洞
   - 漏洞影响版本:**5.4.7 <= Linux Kernel < 5.4.x | 5.5.0 <= Linux Kernel**
   - 漏洞介绍及修复建议:https://nvd.nist.gov/vuln/detail/CVE-2020-8835
   - POC/EXP:https://github.com/zilong3033/CVE-2020-8835
+
+- CVE-2019-15666 xfrm UAF 8字节写NULL提权漏洞
+  - 漏洞影响版本:**Linux Kernel < 5.0.19**
+  - 漏洞介绍及修复建议:https://www.anquanke.com/post/id/253234
+  - POC/EXP:https://github.com/bsauce/kernel-exploit-factory/blob/main/CVE-2019-15666/exp.c
 
 - CVE-2019-14287 sudo权限绕过提权漏洞
   - 漏洞影响版本:**sudo < 1.8.28**
@@ -79,6 +99,11 @@
   - 漏洞影响版本:**Linux Kernel < 5.1.17**
   - 漏洞介绍及修复建议:https://cloud.tencent.com/developer/article/1528508
   - POC/EXP:https://github.com/bcoles/kernel-exploits/tree/master/CVE-2019-13272
+
+- CVE-2019-7304 Ubuntu Linux权限提升漏洞
+  - 漏洞影响版本:**Ubuntu 18.10 | Ubuntu 18.04 LTS | Ubuntu 16.04 LTS | Ubuntu 14.04 LTS**
+  - 漏洞介绍及修复建议:https://cloud.tencent.com/developer/article/1512126
+  - POC/EXP:https://github.com/initstring/dirty_sock
 
 - CVE-2018-18955 Linux内核提权漏洞
   - 漏洞影响版本:**4.15.x < Linux Kernel < 4.19.2**
