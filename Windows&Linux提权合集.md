@@ -105,6 +105,11 @@
   - 漏洞介绍及修复建议:https://cloud.tencent.com/developer/article/1512126
   - POC/EXP:https://github.com/initstring/dirty_sock
 
+- CVE-2018-1000001 Glibc本地提权漏洞
+  - 漏洞影响版本:**glibc <= 2.26**
+  - 漏洞介绍及修复建议:https://www.anquanke.com/post/id/205197
+  - POC/EXP:https://github.com/5H311-1NJ3C706/local-root-exploits/tree/master/linux/CVE-2018-1000001
+
 - CVE-2018-18955 Linux内核提权漏洞
   - 漏洞影响版本:**4.15.x < Linux Kernel < 4.19.2**
   - 漏洞介绍及修复建议:https://www.freebuf.com/vuls/197122.html
@@ -129,6 +134,31 @@
   - 漏洞影响版本:**CentOS < CentOS 7(1708版本) ｜ Red Hat < Red Hat Enterprise Linux 7(7.4) | CentOS 6.x | Red Hat 7.x**
   - 漏洞介绍及修复建议:https://www.anquanke.com/post/id/86939
   - POC/EXP:暂无
+
+- CVE-2017-16995 Linux Kernel本地提权漏洞
+  - 漏洞影响版本:**4.14 <= Linux Kernel <= 4.4**
+  - 漏洞介绍及修复建议:https://zhuanlan.zhihu.com/p/35247850
+  - POC/EXP:https://github.com/Al1ex/CVE-2017-16995
+
+- CVE-2017-16939 Linux Kernel本地权限提升漏洞
+  - 漏洞影响版本:**2.6.28 < Linux kernel < 4.14**
+  - 漏洞介绍及修复建议:https://www.anquanke.com/post/id/87327
+  - POC/EXP:https://github.com/SecWiki/linux-kernel-exploits/tree/master/2017/CVE-2017-16939
+
+- CVE-2017-7308 Linux内核提权漏洞
+  - 漏洞影响版本:**Linux kernel < 4.10.6**
+  - 漏洞介绍及修复建议:https://www.77169.net/html/161809.html
+  - POC/EXP:https://www.exploit-db.com/exploits/41994
+
+- CVE-2017-6074 Linux kernel DCCP double-free权限提升漏洞
+  - 漏洞影响版本:**Linux kernel > 2.6.18**
+  - 漏洞介绍及修复建议:https://www.anquanke.com/post/id/253478
+  - POC/EXP:https://www.exploit-db.com/exploits/41458
+
+- CVE-2017-5123 null任意地址写权限提升漏洞
+  - 漏洞影响版本:**Linux v4.14-rc5**
+  - 漏洞介绍及修复建议:https://bsauce.github.io/2021/05/31/CVE-2017-5123/#kernel-exploitcve-2017-5123-null%E4%BB%BB%E6%84%8F%E5%9C%B0%E5%9D%80%E5%86%99%E6%BC%8F%E6%B4%9E
+  - POC/EXP:https://github.com/nongiach/CVE/tree/master/CVE-2017-5123/exploit
 
 - CVE-2016-5195 Linux脏牛本地提权漏洞
   - 漏洞影响版本:**Linux kernel >= 2.6.22**
