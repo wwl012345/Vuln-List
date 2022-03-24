@@ -130,10 +130,20 @@
   - 漏洞介绍及修复建议:https://www.freebuf.com/column/203162.html
   - POC/EXP:https://github.com/bindecy/HugeDirtyCowPOC
 
+- CVE-2017-1000367 Sudo本地提权漏洞
+  - 漏洞影响版本:**1.8.6p7 <= Sudo <= 1.8.20**
+  - 漏洞介绍及修复建议:https://help.aliyun.com/document_detail/54251.html
+  - POC/EXP:https://github.com/lexfo/cve-2017-11176/blob/master/cve-2017-11176.c
+
 - CVE–2017–1000253 Linux PIE/stack内存破坏本地提权漏洞
   - 漏洞影响版本:**CentOS < CentOS 7(1708版本) ｜ Red Hat < Red Hat Enterprise Linux 7(7.4) | CentOS 6.x | Red Hat 7.x**
   - 漏洞介绍及修复建议:https://www.anquanke.com/post/id/86939
   - POC/EXP:暂无
+
+- CVE-2017-1000112 UDP报文处理不一致导致堆溢出提权漏洞
+  - 漏洞影响版本:**Linux kernel <= 4.12.6
+  - 漏洞介绍及修复建议:https://cloud.tencent.com/developer/article/1396155
+  - POC/EXP:https://github.com/ol0273st-s/CVE-2017-1000112-Adpated/blob/master/Exploit.c
 
 - CVE-2017-16995 Linux Kernel本地提权漏洞
   - 漏洞影响版本:**4.14 <= Linux Kernel <= 4.4**
@@ -144,6 +154,11 @@
   - 漏洞影响版本:**2.6.28 < Linux kernel < 4.14**
   - 漏洞介绍及修复建议:https://www.anquanke.com/post/id/87327
   - POC/EXP:https://github.com/SecWiki/linux-kernel-exploits/tree/master/2017/CVE-2017-16939
+
+- CVE-2017-11176 Linux kernel UAF本地权限提升漏洞
+  - 漏洞影响版本:**Linux kernel < 4.11.9**
+  - 漏洞介绍及修复建议:https://www.anquanke.com/post/id/247073
+  - POC/EXP:https://github.com/lexfo/cve-2017-11176/blob/master/cve-2017-11176.c
 
 - CVE-2017-7308 Linux内核提权漏洞
   - 漏洞影响版本:**Linux kernel < 4.10.6**
@@ -159,6 +174,11 @@
   - 漏洞影响版本:**Linux v4.14-rc5**
   - 漏洞介绍及修复建议:https://bsauce.github.io/2021/05/31/CVE-2017-5123/#kernel-exploitcve-2017-5123-null%E4%BB%BB%E6%84%8F%E5%9C%B0%E5%9D%80%E5%86%99%E6%BC%8F%E6%B4%9E
   - POC/EXP:https://github.com/nongiach/CVE/tree/master/CVE-2017-5123/exploit
+
+- CVE-2016-9793 本地提权漏洞
+  - 漏洞影响版本:**3.11 <= Linux kernel <= 4.8.13**
+  - 漏洞介绍及修复建议:http://cn-sec.com/archives/278454.html
+  - POC/EXP:https://www.exploit-db.com/exploits/41995
 
 - CVE-2016-5195 Linux脏牛本地提权漏洞
   - 漏洞影响版本:**Linux kernel >= 2.6.22**
