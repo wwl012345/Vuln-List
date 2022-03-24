@@ -190,6 +190,11 @@
   - 漏洞介绍及修复建议:https://vuldb.com/zh/?id.87604
   - POC/EXP:https://www.exploit-db.com/exploits/39772
 
+- CVE-2016-0728 Linux内核提权漏洞
+  - 漏洞影响版本:**Linux kernel >= 3.8.x**
+  - 漏洞介绍及修复建议:https://www.anquanke.com/post/id/83342
+  - POC/EXP:https://github.com/SecWiki/linux-kernel-exploits/blob/master/2016/CVE-2016-0728/cve-2016-0728.c
+
 - Linux Suid提权漏洞
   - 漏洞影响版本:**配置了特殊权限的系统**
   - 漏洞介绍及修复建议:https://www.freebuf.com/articles/web/272617.html
