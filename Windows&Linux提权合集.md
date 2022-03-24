@@ -115,6 +115,11 @@
   - 漏洞介绍及修复建议:https://www.cnblogs.com/backlion/p/9729914.html
   - POC/EXP:https://github.com/backlion/CVE-2018-17182
 
+- CVE-2018-5333 kernel exploit空指针引用提权漏洞
+  - 漏洞影响版本:**Linux kernel <= 4.14.13**
+  - 漏洞介绍及修复建议:https://blog.csdn.net/panhewu9919/article/details/119153052
+  - POC/EXP:https://github.com/bcoles/kernel-exploits/blob/master/CVE-2018-5333/cve-2018-5333.c
+
 - CVE-2017-1000405 Huge Dirty COW本地提权漏洞
   - 漏洞影响版本:**2.6.38 <= Linux kernel <= 4.14**
   - 漏洞介绍及修复建议:https://www.freebuf.com/column/203162.html
