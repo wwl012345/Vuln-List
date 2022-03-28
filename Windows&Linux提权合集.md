@@ -25,6 +25,11 @@
   - 漏洞介绍及修复建议:http://www.aqtd.com/nd.jsp?id=569
   - POC/EXP:https://github.com/WazeHell/sam-the-admin
 
+- CVE-2021-40449 Win32k提权漏洞
+  - 漏洞影响版本:**Windows 7 ｜ Windows 8.1 ｜ Windows 10 | Windows 11(具体版本见漏洞介绍及修复建议中链接)**
+  - 漏洞介绍及修复建议:https://www.anquanke.com/post/id/260841
+  - POC/EXP:https://github.com/ly4k/CallbackHell
+
 ### Linux本地提权漏洞
 - CVE-2022-0847 Linux Dirty Pipe本地提权漏洞
   - 漏洞影响版本**5.8 <= Linux 内核版本 < 5.16.11 / 5.15.25 / 5.10.102**
