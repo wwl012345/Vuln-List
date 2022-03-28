@@ -19,6 +19,12 @@
 - Linux提权扫描脚本:https://github.com/mzet-/linux-exploit-suggester
 - Linux提权命令一览表:https://gtfobins.github.io
 
+### Windows本地提权漏洞
+- CVE-2021-42287/CVE-2021-42278Windows域提权漏洞
+  - 漏洞影响版本:**Windows Server 2008 ｜ Windows Server 2012 ｜ Windows Server 2016 ｜ Windows Server 2019(具体版本见漏洞介绍及修复建议中链接)**
+  - 漏洞介绍及修复建议:http://www.aqtd.com/nd.jsp?id=569
+  - POC/EXP:https://github.com/WazeHell/sam-the-admin
+
 ### Linux本地提权漏洞
 - CVE-2022-0847 Linux Dirty Pipe本地提权漏洞
   - 漏洞影响版本**5.8 <= Linux 内核版本 < 5.16.11 / 5.15.25 / 5.10.102**
