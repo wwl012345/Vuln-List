@@ -31,6 +31,11 @@
   - POC/EXP:https://github.com/ly4k/CallbackHell
 
 ### Linux本地提权漏洞
+- CVE-2022-0995 Linux kernel内核提权漏洞
+  - 漏洞影响版本:**Linux 内核版本 <= 5.17-rc7**
+  - 漏洞介绍及修复建议:http://vul.tidesec.com/index/view?type=new&id=264279
+  - POC/EXP:https://github.com/Bonfee/CVE-2022-0995
+
 - CVE-2022-0847 Linux Dirty Pipe本地提权漏洞
   - 漏洞影响版本**5.8 <= Linux 内核版本 < 5.16.11 / 5.15.25 / 5.10.102**
   - 漏洞介绍及修复建议:https://mp.weixin.qq.com/s/b8DmtIerXuoC7f3nqaOVIw
