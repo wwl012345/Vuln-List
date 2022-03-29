@@ -34,7 +34,7 @@
 - CVE-2022-0995 Linux kernel内核提权漏洞
   - 漏洞影响版本:**Linux 内核版本 <= 5.17-rc7**
   - 漏洞介绍及修复建议:http://vul.tidesec.com/index/view?type=new&id=264279
-  - POC/EXP:https://github.com/Bonfee/CVE-2022-0995
+  - POC/EXP:https://github.com/google/security-research/tree/master/pocs/linux/cve-2021-22555
 
 - CVE-2022-0847 Linux Dirty Pipe本地提权漏洞
   - 漏洞影响版本**5.8 <= Linux 内核版本 < 5.16.11 / 5.15.25 / 5.10.102**
