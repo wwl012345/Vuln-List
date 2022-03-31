@@ -30,6 +30,106 @@
   - 漏洞介绍及修复建议:https://www.anquanke.com/post/id/260841
   - POC/EXP:https://github.com/ly4k/CallbackHell
 
+- CVE-2021-36934 Windows权限提升漏洞
+  - 漏洞影响版本:**Windows 10 | Windows Server 2019(具体版本见漏洞介绍及修复建议中链接)**
+  - 漏洞介绍及修复建议:https://nsfocusglobal.com/windows-privilege-escalation-vulnerability-cve-2021-36934-threat-alert/
+  - POC/EXP:https://github.com/cube0x0/CVE-2021-36934
+
+- CVE-2021-34486 Windows Event Tracing权限提升漏洞
+  - 漏洞影响版本:**Windows 10 ｜ Windows Server 2019(具体版本见漏洞介绍及修复建议中链接)**
+  - 漏洞介绍及修复建议:https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-34486
+  - POC/EXP:https://github.com/KaLendsi/CVE-2021-34486
+
+- CVE-2021-33739 DWM Core Library权限提升漏洞
+  - 漏洞影响版本:**Windows10(具体版本见漏洞介绍及修复建议中链接)**
+  - 漏洞介绍及修复建议:https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-33739
+  - POC/EXP:https://github.com/freeide2017/CVE-2021-33739-POC
+
+- CVE-2021-26868 Windows Graphics Component权限提升漏洞
+  - 漏洞影响版本:**Windows 8 | Windows 10 | Windows 2012 | Windows 2016(具体版本见漏洞介绍及修复建议中链接)**
+  - 漏洞介绍及修复建议:https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-26868
+  - POC/EXP:https://github.com/KangD1W2/CVE-2021-26868
+
+- CVE-2021-1732 Windows Win32k权限提升漏洞
+  - 漏洞影响版本:**Windows 10 | Windows 2019**
+  - 漏洞介绍及修复建议:https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-1732
+  - POC/EXP:https://github.com/KaLendsi/CVE-2021-1732-Exploit
+
+- CVE-2020-1472 Netlogon权限提升漏洞
+  - 漏洞影响版本:**Windows Server 2008 | Windows Server 2012 | Windows Server 2016 | Windows Server 2019(具体版本见漏洞介绍及修复建议中链接)**
+  - 漏洞介绍及修复建议:https://msrc.microsoft.com/update-guide/vulnerability/CVE-2020-1472
+  - POC/EXP:https://github.com/SecuraBV/CVE-2020-1472
+
+- CVE-2020-1337 Windows Print Spooler权限提升漏洞
+  - 漏洞影响版本:**Windows 7 | Windows 10 | Windows Server 2008 | Windows Server 2012 | Windows Server 2016 | Windows Server 2019(具体版本见漏洞介绍及修复建议中链接)**
+  - 漏洞介绍及修复建议:https://msrc.microsoft.com/update-guide/vulnerability/CVE-2020-1337
+  - POC/EXP:https://github.com/sailay1996/cve-2020-1337-poc
+
+- CVE-2020-1313 Windows Update Orchestrator Service权限提升漏洞
+  - 漏洞影响版本:**Windows 10(具体版本见漏洞介绍及修复建议中链接)**
+  - 漏洞介绍及修复建议:https://msrc.microsoft.com/update-guide/vulnerability/CVE-2020-1313
+  - POC/EXP:https://github.com/irsl/CVE-2020-1313
+
+- CVE-2020-1066 .NET Framework权限提升漏洞
+  - 漏洞影响版本:**Windows 7 | Windows Server 2008(具体版本见漏洞介绍及修复建议中链接)**
+  - 漏洞介绍及修复建议:https://msrc.microsoft.com/update-guide/vulnerability/CVE-2020-1066
+  - POC/EXP:https://github.com/cbwang505/CVE-2020-1066-EXP
+
+- CVE-2020-1054 Win32k权限提升漏洞
+  - 漏洞影响版本:**Windows 7 | Windows 8 | Windows 10 | Windows Server 2008 | Windows Server 2012 | Windows Server 2016 | Windows Server 2019(具体版本见漏洞介绍及修复建议中链接)**
+  - 漏洞介绍及修复建议:https://msrc.microsoft.com/update-guide/vulnerability/CVE-2020-1054
+  - POC/EXP:https://github.com/0xeb-bp/cve-2020-1054
+
+- CVE-2020-1034 Windows Kernel权限提升漏洞
+  - 漏洞影响版本:**Windows 8 | Windows 10 | Windows Server 2012 | Windows Server 2016 | Windows Server 2019(具体版本见漏洞介绍及修复建议中链接)**
+  - 漏洞介绍及修复建议:https://msrc.microsoft.com/update-guide/zh-CN/vulnerability/CVE-2020-1034
+  - POC/EXP:https://github.com/yardenshafir/CVE-2020-1034
+
+- CVE-2020-1015 Windows内核权限提升漏洞
+  - 漏洞影响版本:**Windows 7 | Windows 8 | Windows 10 | Windows Server 2012 | Windows Server 2016 | Windows Server 2019(具体版本见漏洞介绍及修复建议中链接)**
+  - 漏洞介绍及修复建议:https://msrc.microsoft.com/update-guide/vulnerability/CVE-2020-1015
+  - POC/EXP:https://github.com/0xeb-bp/cve-2020-1015
+
+- CVE-2020-0787 Windows Background Intelligent Transfer服务权限提升漏洞
+  - 漏洞影响版本:**Windows 7 | Windows 8 | Windows 10 | Windows Server 2008 | Windows Server 2012 | Windows Server 2016 | Windows Server 2019(具体版本见漏洞介绍及修复建议中链接)**
+  - 漏洞介绍及修复建议:https://msrc.microsoft.com/update-guide/vulnerability/CVE-2020-0787
+  - POC/EXP:https://github.com/cbwang505/CVE-2020-0787-EXP-ALL-WINDOWS-VERSION
+
+- CVE-2020-0683 Windows Installer权限提升漏洞
+  - 漏洞影响版本:**Windows 7 | Windows 8 | Windows 10 | Windows Server 2008 | Windows Server 2012 | Windows Server 2016 | Windows Server 2019(具体版本见漏洞介绍及修复建议中链接)**
+  - 漏洞介绍及修复建议:https://msrc.microsoft.com/update-guide/vulnerability/CVE-2020-0683
+  - POC/EXP:https://github.com/padovah4ck/CVE-2020-0683
+
+- CVE-2020-0668 Windows内核权限提升漏洞
+  - 漏洞影响版本:**Windows 7 | Windows 8 | Windows 10 | Windows Server 2008 | Windows Server 2012 | Windows Server 2016 | Windows Server 2019(具体版本见漏洞介绍及修复建议中链接)**
+  - 漏洞介绍及修复建议:https://msrc.microsoft.com/update-guide/vulnerability/CVE-2020-0668
+  - POC/EXP:https://github.com/RedCursorSecurityConsulting/CVE-2020-0668
+
+- CVE-2019-1458 Win32k权限提升漏洞
+  - 漏洞影响版本:**Windows 7 | Windows 8 | Windows 10 | Windows Server 2008 | Windows Server 2012 | Windows Server 2016(具体版本见漏洞介绍及修复建议中链接)**
+  - 漏洞介绍及修复建议:https://msrc.microsoft.com/update-guide/vulnerability/CVE-2019-1458
+  - POC/EXP:https://github.com/piotrflorczyk/cve-2019-1458_POC
+
+- CVE-2019-1388 Windows证书对话框权限提升漏洞
+  - 漏洞影响版本:**Windows 7 | Windows 8 | Windows 10 | Windows Server 2008 | Windows Server 2012 | Windows Server 2016 | Windows Server 2019(具体版本见漏洞介绍及修复建议中链接)**
+  - 漏洞介绍及修复建议:https://msrc.microsoft.com/update-guide/vulnerability/CVE-2019-1388
+  - POC/EXP:https://github.com/jas502n/CVE-2019-1388
+
+- CVE-2019-1132 Win32k权限提升漏洞
+  - 漏洞影响版本:**Windowss 7 | Windows Server 2008**
+  - 漏洞介绍及修复建议:https://msrc.microsoft.com/update-guide/vulnerability/CVE-2019-1132
+  - POC/EXP:https://github.com/Vlad-tri/CVE-2019-1132
+
+
+
+
+
+
+
+
+
+
+
 ### Linux本地提权漏洞
 - CVE-2022-0995 Linux kernel内核提权漏洞
   - 漏洞影响版本:**Linux 内核版本 <= 5.17-rc7**
