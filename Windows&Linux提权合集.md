@@ -116,17 +116,64 @@
   - POC/EXP:https://github.com/jas502n/CVE-2019-1388
 
 - CVE-2019-1132 Win32k权限提升漏洞
-  - 漏洞影响版本:**Windowss 7 | Windows Server 2008**
+  - 漏洞影响版本:**Windowss 7 | Windows Server 2008(具体版本见漏洞介绍及修复建议中链接)**
   - 漏洞介绍及修复建议:https://msrc.microsoft.com/update-guide/vulnerability/CVE-2019-1132
   - POC/EXP:https://github.com/Vlad-tri/CVE-2019-1132
 
+- CVE-2019-0808 Win32k权限提升漏洞
+  - 漏洞影响版本:**Windows 7 | Windows Server 2008(具体版本见漏洞介绍及修复建议中链接)**
+  - 漏洞介绍及修复建议:https://msrc.microsoft.com/update-guide/vulnerability/CVE-2019-0808
+  - POC/EXP:https://github.com/ze0r/cve-2019-0808-poc
 
+- CVE-2019-0803 Win32k权限提升漏洞
+  - 漏洞影响版本:**Windows 7 | Windows 8 | Windows 10 | Windows Server 2008 | Windows Server 2012 | Windows Server 2016 | Windows Server 2019(具体版本见漏洞介绍及修复建议中链接)**
+  - 漏洞介绍及修复建议:https://msrc.microsoft.com/update-guide/vulnerability/CVE-2019-0803
+  - POC/EXP:https://github.com/ExpLife0011/CVE-2019-0803
 
+- CVE-2019-0623 Win32k权限提升漏洞
+  - 漏洞影响版本:**Windows 7 | Windows 8 | Windows 10 | Windows Server 2008 | Windows Server 2012 | Windows Server 2016(具体版本见漏洞介绍及修复建议中链接)**
+  - 漏洞介绍及修复建议:https://msrc.microsoft.com/update-guide/vulnerability/CVE-2019-0623
+  - POC/EXP:https://github.com/DreamoneOnly/CVE-2019-0623-32-exp
 
+- CVE-2018-8639 Win32k权限提升漏洞
+  - 漏洞影响版本:**Windows 7 | Windows 8 | Windows 10 | Windows Server 2008 | Windows Server 2012 | Windows Server 2016 | Windows Server 2019(具体版本见漏洞介绍及修复建议中链接)**
+  - 漏洞介绍及修复建议:https://msrc.microsoft.com/update-guide/vulnerability/CVE-2018-8639
+  - POC/EXP:https://github.com/ze0r/CVE-2018-8639-exp
 
+- CVE-2018-8453 Win32k权限提升漏洞
+  - 漏洞影响版本:**Windows 7 | Windows 8 | Windows 10 | Windows Server 2008 | Windows Server 2012 | Windows Server 2016 | Windows Server 2019(具体版本见漏洞介绍及修复建议中链接)**
+  - 漏洞介绍及修复建议:https://msrc.microsoft.com/update-guide/vulnerability/CVE-2018-8453
+  - POC/EXP:https://github.com/ze0r/cve-2018-8453-exp
 
+- CVE-2018-8120 Win32k权限提升漏洞
+  - 漏洞影响版本:**Windows 7 | Windows Server 2008(具体版本见漏洞介绍及修复建议中链接)**
+  - 漏洞介绍及修复建议:https://msrc.microsoft.com/update-guide/vulnerability/CVE-2018-8120
+  - POC/EXP:https://github.com/unamer/CVE-2018-8120
 
+- CVE-2017-0213 Windows COM权限提升漏洞
+  - 漏洞影响版本:**Windows 7 | Windows 8 | Windows 10 | Windows Server 2008 | Windows Server 2012 | Windows Server 2016(具体版本见漏洞介绍及修复建议中链接)**
+  - 漏洞介绍及修复建议:https://msrc.microsoft.com/update-guide/vulnerability/CVE-2017-0213
+  - POC/EXP:https://github.com/zcgonvh/CVE-2017-0213
 
+- CVE-2017-0101 Windows 事务管理器权限提升漏洞
+  - 漏洞影响版本:**Windows Vista ｜ Windows 7 ｜ Windows Server 2008(具体版本见漏洞介绍及修复建议中链接)**
+  - 漏洞介绍及修复建议:https://msrc.microsoft.com/update-guide/vulnerability/CVE-2017-0101
+  - POC/EXP:暂无
+
+- CVE-2016-7255 Win32k权限提升漏洞
+  - 漏洞影响版本:**Windows Vista ｜ Windows 7 | Windows 8 | Windows 10 | Windows Server 2008 | Windows Server 2012 | Windows Server 2016(具体版本见漏洞介绍及修复建议中链接)**
+  - 漏洞介绍及修复建议:https://msrc.microsoft.com/update-guide/vulnerability/CVE-2016-7255
+  - POC/EXP:https://github.com/FSecureLABS/CVE-2016-7255
+
+- CVE-2016-3371 Windows权限提升漏洞
+  - 漏洞影响版本:**Windows Vista ｜ Windows 7 | Windows 8 | Windows 10 | Windows Server 2008 | Windows Server 2012(具体版本见漏洞介绍及修复建议中链接)**
+  - 漏洞介绍及修复建议:https://msrc.microsoft.com/update-guide/vulnerability/CVE-2016-3371
+  - POC/EXP:暂无
+
+- CVE-2016-3225 Windows SMB服务器权限提升漏洞
+  - 漏洞影响版本:**Windows Vista ｜ Windows 7 | Windows 8 | Windows 10 | Windows Server 2008 | Windows Server 2012(具体版本见漏洞介绍及修复建议中链接)**
+  - 漏洞介绍及修复建议:https://msrc.microsoft.com/update-guide/vulnerability/CVE-2016-3225
+  - POC/EXP:暂无
 
 
 
