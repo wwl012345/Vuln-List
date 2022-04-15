@@ -237,7 +237,7 @@
 - CVE-2021-3156 Sudo堆缓冲区溢出提权漏洞
   - 漏洞影响版本:**Sudo 1.8.2-1.8.31p2 | Sudo 1.9.0-1.9.5p1**
   - 漏洞介绍及修复建议:https://www.freebuf.com/vuls/270839.html
-  - POC/EXP:https://haxx.in/CVE-2021-3156_nss_poc_ubuntu.tar.gz
+  - POC/EXP:https://github.com/mohinparamasivam/Sudo-1.8.31-Root-Exploit
 
 - CVE-2020-27194 Linux内核eBPF权限提升漏洞
   - 漏洞影响版本:**5.7 <= Linux kernel <= 5.8.14**
