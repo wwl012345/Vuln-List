@@ -10,6 +10,8 @@
 - [提权辅助工具](#提权辅助工具)
 - [Windows本地提权漏洞](#Windows本地提权漏洞)
 - [Linux本地提权漏洞](#Linux本地提权漏洞)
+- [Windows远程代码执行漏洞](#Windows远程代码执行漏洞)
+- [Linux远程代码执行漏洞](#Linux远程代码执行漏洞)
 
 # 漏洞列表
 
@@ -369,3 +371,10 @@
   - 漏洞影响版本:**配置了sudoer文件特殊权限的系统**
   - 漏洞介绍及修复建议:https://cloud.tencent.com/developer/article/1708368
   - POC/EXP:https://developer.aliyun.com/article/654362
+
+### Windows远程代码执行漏洞
+- CVE-2022-26809 Remote Procedure Call Runtime远程代码执行漏洞
+  - 漏洞影响版本:**Windows 7 | Windows 8.1 | Windows 10 | Windows 11 | Windows Server 2008 | Windows Server 2012 | Windows Server 2016 | Windows Server 2019 | Windows Server 2022**
+  - 漏洞介绍及修复建议:https://bbs.huaweicloud.com/forum/thread-184862-1-1.html
+  - https://github.com/genieyou/CVE-2022-26809-RCE
+
