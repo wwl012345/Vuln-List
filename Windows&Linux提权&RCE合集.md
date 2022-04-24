@@ -349,7 +349,7 @@
 - CVE-2016-5195 Linux脏牛本地提权漏洞
   - 漏洞影响版本:**Linux kernel >= 2.6.22**
   - 漏洞介绍及修复建议:https://www.jianshu.com/p/df72d1ee1e3e
-  - POC/EXP:https://github.com/dirtycow/dirtycow.github.io/blob/master/dirtyc0w.c
+  - POC/EXP:https://github.com/firefart/dirtycow/blob/master/dirty.c
 
 - CVE-2016-4557 Linux-raspi2本地提权漏洞
   - 漏洞影响版本:**Linux kernel <= 4.5.4**
