@@ -10,8 +10,30 @@
 
 # 漏洞列表
 ### Drupal
+- CVE-2019-6340 Drupal REST远程代码执行漏洞
+  - 漏洞影响版本:**8.6.0 < Drupal < 8.6.10 | 8.5.0 < Drupal < 8.5.12**
+  - 漏洞介绍及修复建议:https://www.anquanke.com/post/id/171427
+  - POC/EXP:https://cloud.tencent.com/developer/article/1511942
+  - 批量利用脚本:https://github.com/jas502n/CVE-2019-6340
+
+- CVE-2019-6339 Drupal远程代码执行漏洞
+  - 漏洞影响版本:**7.0 < Drupal < 7.62 ｜ 8.6.0 < Drupal < 8.6.6 ｜ 8.5.x < Drupal < 8.5.9**
+  - 漏洞介绍及修复建议:https://www.daimajiaoliu.com/daima/6cb8e981da66000
+  - POC/EXP:https://www.freebuf.com/vuls/260925.html
+
 - CVE-2018-7602 Drupal核心远程代码执行漏洞
   - 漏洞影响版本:**Drupal 7.x | Drupal 8.x**
   - 漏洞介绍及修复建议:https://www.anquanke.com/post/id/106669
   - POC/EXP:https://www.cxybb.com/article/yzl_007/119535892
   - 批量利用脚本:https://github.com/pimps/CVE-2018-7600/blob/master/drupa7-CVE-2018-7602.py
+
+- CVE-2018-7600 Drupal核心远程代码执行漏洞
+  - 漏洞影响版本:**Drupal 6.x | Drupal 7.x | Drupal 8.x**
+  - 漏洞介绍及修复建议:https://cert.360.cn/warning/detail?id=3d862f150b642421c087b0493645b745
+  - POC/EXP:https://www.freebuf.com/vuls/268189.html
+  - 批量利用脚本:https://github.com/pimps/CVE-2018-7600/blob/master/drupa7-CVE-2018-7600.py
+
+- CVE-2017-6920 Drupal远程命令执行漏洞
+  - 漏洞影响版本:**8.x < Drupal < 8.3.4**
+  - 漏洞介绍及修复建议:https://help.aliyun.com/document_detail/55885.html
+  - POC/EXP:https://www.freebuf.com/articles/web/273528.html
