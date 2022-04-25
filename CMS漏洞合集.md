@@ -10,6 +10,16 @@
 
 # 漏洞列表
 ### Drupal
+- CVE-2020-28948/CVE-2020-28949 Drupal远程代码执行漏洞
+  - 漏洞影响版本:**7.0 < Drupal < 7.75 | 8.8.0 < Drupal < 8.8.12 | 8.9.0 < Drupal < 8.9.10 | 9.0.0 < Drupal < 9.0.9**
+  - 漏洞介绍及修复建议:https://www.anquanke.com/post/id/223848
+  - POC/EXP:https://github.com/0x240x23elu/CVE-2020-28948-and-CVE-2020-28949
+
+- CVE-2019-6341 Drupal XSS漏洞
+  - 漏洞影响版本:**7.0 < Drupal < 7.65 | 8.6.0 < Drupal < 8.6.13 | 8.5.0 < Drupal < 8.5.14**
+  - 漏洞介绍及修复建议:https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-6341
+  - POC/EXP:https://blog.csdn.net/qq_40989258/article/details/105001425
+
 - CVE-2019-6340 Drupal REST远程代码执行漏洞
   - 漏洞影响版本:**8.6.0 < Drupal < 8.6.10 | 8.5.0 < Drupal < 8.5.12**
   - 漏洞介绍及修复建议:https://www.anquanke.com/post/id/171427
@@ -33,7 +43,26 @@
   - POC/EXP:https://www.freebuf.com/vuls/268189.html
   - 批量利用脚本:https://github.com/pimps/CVE-2018-7600/blob/master/drupa7-CVE-2018-7600.py
 
+- CVE-2017-6926 Drupal越权访问漏洞
+  - 漏洞影响版本:**8.4.x < Drupal < 8.4.5**
+  - 漏洞介绍及修复建议:https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-6926
+  - POC/EXP:http://blog.nsfocus.net/drupal8-cve-2017-6926/
+
 - CVE-2017-6920 Drupal远程命令执行漏洞
   - 漏洞影响版本:**8.x < Drupal < 8.3.4**
   - 漏洞介绍及修复建议:https://help.aliyun.com/document_detail/55885.html
   - POC/EXP:https://www.freebuf.com/articles/web/273528.html
+
+- CVE-2017-6919 Access Bypass vulnerability登录绕过漏洞
+  - 漏洞影响版本:**8.0.0 < Drupal < 8.2.8 | 8.3.0 < Drupal < 8.3.1**
+  - 漏洞介绍及修复建议:https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-6919
+  - POC/EXP:暂无
+
+- CVE-2016-7572 越权下载完整配置文件漏洞
+  - 漏洞影响版本:**8.0.0 < Drupal < 8.1.10**
+  - 漏洞介绍及修复建议:https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-7572
+  - POC/EXP:暂无
+
+
+
+
