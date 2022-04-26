@@ -15,6 +15,11 @@
   - 漏洞介绍及修复建议:https://www.anquanke.com/post/id/223848
   - POC/EXP:https://github.com/0x240x23elu/CVE-2020-28948-and-CVE-2020-28949
 
+- CVE-2019-6342 Drupal访问绕过漏洞
+  - 漏洞影响版本:**Drupal 8.7.4**
+  - 漏洞介绍及修复建议:https://cloud.tencent.com/developer/article/1526558
+  - POC/EXP:http://blog.nsfocus.net/cve-2019-6342-2
+
 - CVE-2019-6341 Drupal XSS漏洞
   - 漏洞影响版本:**7.0 < Drupal < 7.65 | 8.6.0 < Drupal < 8.6.13 | 8.5.0 < Drupal < 8.5.14**
   - 漏洞介绍及修复建议:https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-6341
@@ -62,7 +67,3 @@
   - 漏洞影响版本:**8.0.0 < Drupal < 8.1.10**
   - 漏洞介绍及修复建议:https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-7572
   - POC/EXP:暂无
-
-
-
-
