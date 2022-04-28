@@ -181,6 +181,11 @@
 
 
 ### Linux本地提权漏洞
+- CVE-2022-29799/CVE-2022-29800 Linux Nimbuspwn本地提权漏洞
+  - 漏洞影响版本:**networkd-dispatcher < 2.2.1-0**
+  - 漏洞介绍及修复建议:https://mp.weixin.qq.com/s/yKFLsWB8r5UGZlLi6k6IuQ
+  - POC/EXP:https://github.com/Maksim-venus/Nimbuspwn
+
 - CVE-2022-0995 Linux kernel内核提权漏洞
   - 漏洞影响版本:**Linux 内核版本 <= 5.17-rc7**
   - 漏洞介绍及修复建议:http://vul.tidesec.com/index/view?type=new&id=264279
