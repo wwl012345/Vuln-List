@@ -7,7 +7,7 @@
 
 # 项目列表
 - [Drupal](#Drupal)
-- [Discuz!](#Discuz!)
+- [Discuz](#Discuz)
 
 # 漏洞列表
 ### Drupal
@@ -69,7 +69,7 @@
   - 漏洞介绍及修复建议:https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-7572
   - POC/EXP:暂无
 
-### Discuz!
+### Discuz
 - Discuz!X 系列全版本后台sql注入漏洞
   - 漏洞影响版本:**全版本**
   - 漏洞介绍及修复建议:https://mp.weixin.qq.com/s/0PaVA9tzOxBFQVZ0EBVc9A
@@ -85,17 +85,23 @@
   - 漏洞介绍及修复建议:https://wiki.96.mk/Web%E5%AE%89%E5%85%A8/Discuz/Discuz%21%20X%203.4%20admincp_misc.php%20SQL%E6%B3%A8%E5%85%A5%E6%BC%8F%E6%B4%9E/
   - POC/EXP:暂无
 
+- Discuz!X 前台SSRF漏洞
+  - 漏洞影响版本:**Discuz!X = 3.4**
+  - 漏洞介绍及修复建议:https://www.freebuf.com/vuls/191698.html
+  - POC/EXP:https://www.anquanke.com/post/id/254337
+
 - Discuz!X 任意文件删除漏洞
   - 漏洞影响版本:**Discuz!X <= 3.4**
   - 漏洞介绍及修复建议:https://lorexxar.cn/2017/09/30/dz-delete
   - POC/EXP:https://cloud.tencent.com/developer/article/1540851
 
+- Discuz!X 后台代码执行漏洞
+  - 漏洞影响版本:**Discuz!X = 3.1**
+  - 漏洞介绍及修复建议:https://www.hacking8.com/bug-web/Discuz/Discuz!-X3.1-%E5%90%8E%E5%8F%B0%E4%BB%BB%E6%84%8F%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C%E6%BC%8F%E6%B4%9E.html
+  - POC/EXP:https://blog.csdn.net/weixin_50359752/article/details/111153137
+
 - CVE-2018-14729 Discuz! 后台数据库备份功能远程命令执行漏洞
   - 漏洞影响版本:**1.5 <= Discuz! <= 2.5**
   - 漏洞介绍及修复建议:https://www.anquanke.com/post/id/158270
   - POC/EXP:https://www.zhihuifly.com/t/topic/2883
- 
- 
- 
- 
  
