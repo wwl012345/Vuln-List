@@ -381,5 +381,5 @@
 - CVE-2022-26809 Remote Procedure Call Runtime远程代码执行漏洞
   - 漏洞影响版本:**Windows 7 | Windows 8.1 | Windows 10 | Windows 11 | Windows Server 2008 | Windows Server 2012 | Windows Server 2016 | Windows Server 2019 | Windows Server 2022**
   - 漏洞介绍及修复建议:https://bbs.huaweicloud.com/forum/thread-184862-1-1.html
-  - https://github.com/genieyou/CVE-2022-26809-RCE
+  - POC/EXP:https://github.com/genieyou/CVE-2022-26809-RCE
 
