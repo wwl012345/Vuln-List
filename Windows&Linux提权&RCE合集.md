@@ -23,6 +23,11 @@
 - Linux自动提权脚本:https://github.com/liamg/traitor
 
 ### Windows本地提权漏洞
+- CVE-2022-26923 Active Directory 域服务特权提升漏洞
+  - 漏洞影响版本:**Windows 8.1 | Windows 10 Version 1607,1809,1909,2004,20H2,21H1,21H2 | Windows 11 | Windows Server 2012 | Windows Server 2016 | Windows Server 2019 | Windows Server 2022**
+  - 漏洞介绍及修复建议:https://cn-sec.com/archives/999736.html
+  - POC/EXP:https://mp.weixin.qq.com/s/t0u_bObzUUWOnuJEEKGkxw
+
 - CVE-2021-42287/CVE-2021-42278Windows域提权漏洞
   - 漏洞影响版本:**Windows Server 2008 ｜ Windows Server 2012 ｜ Windows Server 2016 ｜ Windows Server 2019(具体版本见漏洞介绍及修复建议中链接)**
   - 漏洞介绍及修复建议:http://www.aqtd.com/nd.jsp?id=569
