@@ -191,6 +191,11 @@
   - 漏洞介绍及修复建议:https://mp.weixin.qq.com/s/yKFLsWB8r5UGZlLi6k6IuQ
   - POC/EXP:https://github.com/Maksim-venus/Nimbuspwn
 
+- CVE-2022-23222 Linux kernel本地提权漏洞
+  - 漏洞影响版本:**Linux 内核版本 <= 5.15.14**
+  - 漏洞介绍及修复建议:https://www.cve.org/CVERecord?id=CVE-2022-23222
+  - POC/EXP:https://github.com/tr3ee/CVE-2022-23222
+
 - CVE-2022-0995 Linux kernel内核提权漏洞
   - 漏洞影响版本:**Linux 内核版本 <= 5.17-rc7**
   - 漏洞介绍及修复建议:http://vul.tidesec.com/index/view?type=new&id=264279
