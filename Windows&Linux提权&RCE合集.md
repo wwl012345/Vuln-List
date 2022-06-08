@@ -226,6 +226,11 @@
   - 漏洞介绍及修复建议:https://www.anquanke.com/post/id/251515
   - POC/EXP:https://github.com/google/security-research/blob/master/pocs/linux/cve-2021-22555/exploit.c
 
+- CVE-2021-4204 Linux kernel权限提升漏洞
+  - 漏洞影响版本:**5.8 <= Linux Kernel <= 5.16**
+  - 漏洞介绍及修复建议:http://www.cnnvd.org.cn/web/xxk/ldxqById.tag?CNNVD=CNNVD-202201-897
+  - POC/EXP:https://github.com/tr3ee/CVE-2021-4204
+
 - CVE-2021-4034 pkexec本地提权漏洞
   - 漏洞影响版本:**大多数主流linux系统均受影响**
   - 漏洞介绍及修复建议:https://cert.360.cn/warning/detail?id=25d7a6ec96c91ca4e4238fd10da2c778
