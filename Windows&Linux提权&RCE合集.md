@@ -18,9 +18,12 @@
 ### 提权辅助工具
 - Windows/Linux辅助提权工具汇总:https://cloud.tencent.com/developer/article/1944250?from=15425
 - Windows提权辅助工具:https://i.hacking8.com/tiquan
+- Windwos自动提权脚本:https://github.com/carlospolop/PEASS-ng/tree/master/winPEAS
 - Linux提权扫描脚本:https://github.com/mzet-/linux-exploit-suggester
 - Linux提权命令一览表:https://gtfobins.github.io
 - Linux自动提权脚本:https://github.com/liamg/traitor
+- Linux提权枚举脚本:https://github.com/rebootuser/LinEnum
+- Linux自动提权脚本:https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS
 
 ### Windows本地提权漏洞
 - CVE-2022-26923 Active Directory 域服务特权提升漏洞
