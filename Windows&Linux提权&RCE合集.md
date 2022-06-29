@@ -26,6 +26,11 @@
 - Linux自动提权脚本:https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS
 
 ### Windows本地提权漏洞
+- CVE-2022-24521 Windows CLFS本地提权漏洞
+  - 漏洞影响版本:**Windows 7 ｜ Windows 8.1 ｜ Windows 10 ｜ Windows 11 ｜ Windows Server 2008 ｜ Windows Server 2012 ｜ Windows Server 2016 ｜ Windows Server 2019 ｜ Windows Server 2022**
+  - 漏洞介绍及修复建议:https://cn-sec.com/archives/998137.html
+  - POC/EXP:暂无
+
 - CVE-2022-26923 Active Directory 域服务特权提升漏洞
   - 漏洞影响版本:**Windows 8.1 | Windows 10 Version 1607,1809,1909,2004,20H2,21H1,21H2 | Windows 11 | Windows Server 2012 | Windows Server 2016 | Windows Server 2019 | Windows Server 2022**
   - 漏洞介绍及修复建议:https://cn-sec.com/archives/999736.html
