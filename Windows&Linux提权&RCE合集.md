@@ -199,6 +199,11 @@
 
 
 ### Linux本地提权漏洞
+- CVE-2022-34918 Linux Kernel本地权限提升漏洞
+  - 漏洞影响版本:**5.8 <= Linux Kernel <= 5.18.9**
+  - 漏洞介绍及修复建议:https://mp.weixin.qq.com/s/Qon1AU2GG992J6-nFGZjnA
+  - POC/EXP:https://github.com/randorisec/CVE-2022-34918-LPE-PoC
+
 - CVE-2022-29799/CVE-2022-29800 Linux Nimbuspwn本地提权漏洞
   - 漏洞影响版本:**networkd-dispatcher < 2.2.1-0**
   - 漏洞介绍及修复建议:https://mp.weixin.qq.com/s/yKFLsWB8r5UGZlLi6k6IuQ
