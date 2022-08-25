@@ -199,6 +199,11 @@
 
 
 ### Linux本地提权漏洞
+- CVE-2022-32250 Linux 本地权限提升漏洞
+  - 漏洞影响版本:**Linux kernel <= 5.18.1**
+  - 漏洞介绍及修复建议:http://www.nsfocus.net/vulndb/65587
+  - POC/EXP:https://github.com/theori-io/CVE-2022-32250-exploit
+
 - CVE-2022-34918 Linux Kernel本地权限提升漏洞
   - 漏洞影响版本:**5.8 <= Linux Kernel <= 5.18.9**
   - 漏洞介绍及修复建议:https://mp.weixin.qq.com/s/Qon1AU2GG992J6-nFGZjnA
