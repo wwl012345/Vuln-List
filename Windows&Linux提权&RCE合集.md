@@ -219,6 +219,11 @@
   - 漏洞介绍及修复建议:https://www.cve.org/CVERecord?id=CVE-2022-23222
   - POC/EXP:https://github.com/tr3ee/CVE-2022-23222
 
+- CVE-2022-2639 Linux Kernel openvswitch模块权限提升漏洞
+  - 漏洞影响版本:**v3.13 <= Linux Kernel < v5.18**
+  - 漏洞介绍及修复建议:https://nvd.nist.gov/vuln/detail/CVE-2022-2639
+  - POC/EXP:https://github.com/veritas501/CVE-2022-2639-PipeVersion
+
 - CVE-2022-0995 Linux kernel内核提权漏洞
   - 漏洞影响版本:**Linux 内核版本 <= 5.17-rc7**
   - 漏洞介绍及修复建议:http://vul.tidesec.com/index/view?type=new&id=264279
