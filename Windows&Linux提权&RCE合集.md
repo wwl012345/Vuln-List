@@ -196,18 +196,16 @@
   - 漏洞介绍及修复建议:https://msrc.microsoft.com/update-guide/vulnerability/CVE-2016-3225
   - POC/EXP:暂无
 
-
-
 ### Linux本地提权漏洞
-- CVE-2022-32250 Linux 本地权限提升漏洞
-  - 漏洞影响版本:**Linux kernel <= 5.18.1**
-  - 漏洞介绍及修复建议:http://www.nsfocus.net/vulndb/65587
-  - POC/EXP:https://github.com/theori-io/CVE-2022-32250-exploit
-
 - CVE-2022-34918 Linux Kernel本地权限提升漏洞
   - 漏洞影响版本:**5.8 <= Linux Kernel <= 5.18.9**
   - 漏洞介绍及修复建议:https://mp.weixin.qq.com/s/Qon1AU2GG992J6-nFGZjnA
   - POC/EXP:https://github.com/randorisec/CVE-2022-34918-LPE-PoC
+
+- CVE-2022-32250 Linux 本地权限提升漏洞
+  - 漏洞影响版本:**Linux kernel <= 5.18.1**
+  - 漏洞介绍及修复建议:http://www.nsfocus.net/vulndb/65587
+  - POC/EXP:https://github.com/theori-io/CVE-2022-32250-exploit
 
 - CVE-2022-29799/CVE-2022-29800 Linux Nimbuspwn本地提权漏洞
   - 漏洞影响版本:**networkd-dispatcher < 2.2.1-0**
@@ -421,6 +419,16 @@
   - POC/EXP:https://developer.aliyun.com/article/654362
 
 ### Windows远程代码执行漏洞
+- CVE-2022-34715 Windows Network File System 远程代码执行漏洞
+  - 漏洞影响版本:**Windows Server 2022(Server Core installation) ｜ Windows Server 2022**
+  - 漏洞介绍及修复建议:https://ti.qianxin.com/vulnerability/detail/251737
+  - POC/EXP:暂无
+
+- CVE-2022-34713 Microsoft Windows 支持诊断工具(MSDT)远程代码执行漏洞
+  - 漏洞影响版本:**Windows Server 2008 R2 | Windows RT 8.1 | Windows 8.1 | Windows 7 | Windows Server 2016 | Windows 10 | Windows 11 | Windows Server 2022 | Windows Server 2019 | Windows Server 2012 R2**
+  - 漏洞介绍及修复建议:https://ti.qianxin.com/vulnerability/detail/251679
+  - POC/EXP:暂无
+
 - CVE-2022-26809 Remote Procedure Call Runtime远程代码执行漏洞
   - 漏洞影响版本:**Windows 7 | Windows 8.1 | Windows 10 | Windows 11 | Windows Server 2008 | Windows Server 2012 | Windows Server 2016 | Windows Server 2019 | Windows Server 2022**
   - 漏洞介绍及修复建议:https://bbs.huaweicloud.com/forum/thread-184862-1-1.html
