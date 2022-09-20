@@ -222,6 +222,11 @@
   - 漏洞介绍及修复建议:https://nvd.nist.gov/vuln/detail/CVE-2022-2639
   - POC/EXP:https://github.com/veritas501/CVE-2022-2639-PipeVersion
 
+- CVE-2022-2588 Linux kernel DirtyCred提权漏洞
+  - 漏洞影响版本:**Linux kernel 内核版本 < 5.8**
+  - 漏洞介绍及修复建议:https://cn-sec.com/archives/1258478.html
+  - POC/EXP:https://github.com/Markakd/CVE-2022-2588
+
 - CVE-2022-0995 Linux kernel内核提权漏洞
   - 漏洞影响版本:**Linux 内核版本 <= 5.17-rc7**
   - 漏洞介绍及修复建议:http://vul.tidesec.com/index/view?type=new&id=264279
