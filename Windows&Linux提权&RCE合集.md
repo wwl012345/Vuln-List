@@ -19,7 +19,9 @@
 ### 提权辅助工具
 - Windows/Linux辅助提权工具汇总:https://cloud.tencent.com/developer/article/1944250?from=15425
 - Windows提权辅助工具:https://i.hacking8.com/tiquan
+- Windows提权漏洞检测:https://github.com/brianwrf/WinSystemHelper
 - Windwos自动提权脚本:https://github.com/carlospolop/PEASS-ng/tree/master/winPEAS
+- Windows漏洞合集列表:https://github.com/SecWiki/windows-kernel-exploits
 - Linux提权扫描脚本:https://github.com/mzet-/linux-exploit-suggester
 - Linux提权命令一览表:https://gtfobins.github.io
 - Linux自动提权脚本:https://github.com/liamg/traitor
