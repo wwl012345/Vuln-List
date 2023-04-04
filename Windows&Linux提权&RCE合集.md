@@ -27,6 +27,7 @@
 - Linux自动提权脚本:https://github.com/liamg/traitor
 - Linux提权枚举脚本:https://github.com/rebootuser/LinEnum
 - Linux自动提权脚本:https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS
+- Linux自动提权脚本:https://github.com/liamg/traitor
 
 ### 容器逃逸检测脚本
 - 容器逃逸检测脚本:https://github.com/teamssix/container-escape-check
