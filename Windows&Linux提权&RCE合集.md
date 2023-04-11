@@ -204,6 +204,11 @@
   - POC/EXP:暂无
 
 ### Linux本地提权漏洞
+- CVE-2023-0179 Linux 本地内核提权漏洞
+  - 漏洞影响版本:**all Linux versions from 5.5 to 6.2-rc3**
+  - 漏洞介绍及修复建议:https://www.ctfiot.com/100156.html
+  - POC/EXP:https://github.com/H4K6/CVE-2023-0179-PoC
+
 - CVE-2022-34918 Linux Kernel本地权限提升漏洞
   - 漏洞影响版本:**5.8 <= Linux Kernel <= 5.18.9**
   - 漏洞介绍及修复建议:https://mp.weixin.qq.com/s/Qon1AU2GG992J6-nFGZjnA
