@@ -205,6 +205,11 @@
   - POC/EXP:暂无
 
 ### Linux本地提权漏洞
+- CVE-2023-0386 LINUX OVERLAYFS本地权限提升漏洞
+  - 漏洞影响版本:**v5.11-rc1 <= Linux Kernel <= v6.2-rc5**
+  - 漏洞介绍及修复建议:http://blog.nsfocus.net/linux-overlayfscve-2023-0386/
+  - POC/EXP:https://github.com/xkaneiki/CVE-2023-0386
+
 - CVE-2023-0179 Linux 本地内核提权漏洞
   - 漏洞影响版本:**all Linux versions from 5.5 to 6.2-rc3**
   - 漏洞介绍及修复建议:https://www.ctfiot.com/100156.html
